@@ -60,7 +60,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', action='store_true', help='given url is a playlist')
     parser.add_argument('--s', type=int, help='download from given index in playlist')
-    parser.add_argument('--e', type=int, help='download upto given index in playlist')
+    parser.add_argument('--e', type=int, help='download till given index in playlist')
     parser.add_argument('-a', action='store_true', help="download audio only")
     parser.add_argument("-u", help='url of the playlist')
     parser.add_argument("-f", help='url of the file')
