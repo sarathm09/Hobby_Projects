@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wikipedia/wiki_extract.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -15,6 +16,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PyScripts$mail.coverage" NAME="mail Coverage Results" MODIFIED="1414908220047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Email" />
+    <SUITE FILE_PATH="coverage/PyScripts$wiki_extract.coverage" NAME="wiki_extract Coverage Results" MODIFIED="1414924664861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wikipedia" />
     <SUITE FILE_PATH="coverage/PyScripts$youtube_downloader.coverage" NAME="youtube_downloader Coverage Results" MODIFIED="1414862625583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youtube" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -29,17 +31,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="youtube_downloader.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="youtube_downloader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/youtube_downloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66387725" vertical-offset="0" max-vertical-offset="1700">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1228" max-vertical-offset="1700">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="e#22#102#1" expanded="true" />
                 <element signature="e#211#226#0" expanded="true" />
                 <element signature="e#271#339#0" expanded="true" />
+                <element signature="e#407#670#0" expanded="true" />
                 <element signature="e#745#1302#0" expanded="true" />
                 <element signature="e#1318#2375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiki_extract.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wikipedia/wiki_extract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6398305" vertical-offset="140" max-vertical-offset="816">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="e#146#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +75,7 @@
       <list>
         <option value="$PROJECT_DIR$/Email/mail.py" />
         <option value="$PROJECT_DIR$/Youtube/youtube_downloader.py" />
+        <option value="$PROJECT_DIR$/Wikipedia/wiki_extract.py" />
       </list>
     </option>
   </component>
@@ -128,8 +144,18 @@
               <option name="myItemId" value="PyScripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Youtube" />
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wikipedia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,7 +182,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mail">
+  <component name="RunManager" selected="Python.wiki_extract">
     <configuration default="false" name="youtube_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,6 +218,27 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Email/mail.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="wiki_extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Wikipedia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wikipedia/wiki_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -345,14 +392,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.youtube_downloader" />
       <item index="1" class="java.lang.String" itemvalue="Python.mail" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wiki_extract" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.mail" />
-        <item index="1" class="java.lang.String" itemvalue="Python.youtube_downloader" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.wiki_extract" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mail" />
+        <item index="2" class="java.lang.String" itemvalue="Python.youtube_downloader" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +427,11 @@
       <created>1414917979108</created>
       <updated>1414917979108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stable">
+      <created>1414918003792</created>
+      <updated>1414918003792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,8 +448,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2570677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5003287" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.49967128" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -422,7 +475,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 1" />
+    <MESSAGE value="Stable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -436,6 +490,7 @@
             <element signature="e#22#102#1" expanded="true" />
             <element signature="e#211#226#0" expanded="true" />
             <element signature="e#271#339#0" expanded="true" />
+            <element signature="e#407#670#0" expanded="true" />
             <element signature="e#745#1302#0" expanded="true" />
             <element signature="e#1318#2375#0" expanded="true" />
           </folding>
@@ -444,14 +499,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/youtube_downloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66387725" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="e#22#102#1" expanded="true" />
             <element signature="e#211#226#0" expanded="true" />
             <element signature="e#271#339#0" expanded="true" />
+            <element signature="e#407#670#0" expanded="true" />
             <element signature="e#745#1302#0" expanded="true" />
             <element signature="e#1318#2375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wikipedia/wiki_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6398305" vertical-offset="140" max-vertical-offset="816">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#146#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
