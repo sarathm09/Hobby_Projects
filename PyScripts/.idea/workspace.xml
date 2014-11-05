@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/11_grid_prod.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/13_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/22_names.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/29_distinct_prime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/32_pandigital.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/37_trunc_prime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/44_pentagon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/46_goldbach.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/48_series.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/49_primr_oermu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/102_triangles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/127_abc_hit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/145_reversible.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/22names.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/483_permu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/primes1000000.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler/questions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Euler/12_tiangle_num.py" afterPath="$PROJECT_DIR$/Euler/12_tiangle_num.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -29,6 +27,8 @@
     <SUITE FILE_PATH="coverage/PyScripts$mail.coverage" NAME="mail Coverage Results" MODIFIED="1414908220047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Email" />
     <SUITE FILE_PATH="coverage/PyScripts$extract_q.coverage" NAME="extract_q Coverage Results" MODIFIED="1414999839939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$wiki_extract.coverage" NAME="wiki_extract Coverage Results" MODIFIED="1414926591065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wikipedia" />
+    <SUITE FILE_PATH="coverage/PyScripts$102_triangles.coverage" NAME="102_triangles Coverage Results" MODIFIED="1415110640328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$483_permu.coverage" NAME="483_permu Coverage Results" MODIFIED="1415127868998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$1_sum_3_5.coverage" NAME="1_sum_3_5 Coverage Results" MODIFIED="1414927347536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$youtube_downloader.coverage" NAME="youtube_downloader Coverage Results" MODIFIED="1414862625583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youtube" />
     <SUITE FILE_PATH="coverage/PyScripts$9_pytha_triplet.coverage" NAME="9_pytha_triplet Coverage Results" MODIFIED="1414987705722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
@@ -38,23 +38,25 @@
     <SUITE FILE_PATH="coverage/PyScripts$29_distinct_prime.coverage" NAME="29_distinct_prime Coverage Results" MODIFIED="1415035308501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$13_sum.coverage" NAME="13_sum Coverage Results" MODIFIED="1415047081725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$32_pandigital.coverage" NAME="32_pandigital Coverage Results" MODIFIED="1415037150422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$127_abc_hit.coverage" NAME="127_abc_hit Coverage Results" MODIFIED="1415116808136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$6_sum_square.coverage" NAME="6_sum_square Coverage Results" MODIFIED="1414947671309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$11_grid_prod.coverage" NAME="11_grid_prod Coverage Results" MODIFIED="1415091134391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$30_armstrong.coverage" NAME="30_armstrong Coverage Results" MODIFIED="1415016467988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$7_10001_prime.coverage" NAME="7_10001_prime Coverage Results" MODIFIED="1414989980815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$145_reversible.coverage" NAME="145_reversible Coverage Results" MODIFIED="1415107932895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$7_1001_prime.coverage" NAME="7_1001_prime Coverage Results" MODIFIED="1414946727183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$10_sum_prime.coverage" NAME="10_sum_prime Coverage Results" MODIFIED="1414989857616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$50_sum_primes.coverage" NAME="50_sum_primes Coverage Results" MODIFIED="1414998163843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$44_pentagon.coverage" NAME="44_pentagon Coverage Results" MODIFIED="1415038207872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
-    <SUITE FILE_PATH="coverage/PyScripts$458_perm.coverage" NAME="458_perm Coverage Results" MODIFIED="1414934575369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$4_palin.coverage" NAME="4_palin Coverage Results" MODIFIED="1414936017799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$458_perm.coverage" NAME="458_perm Coverage Results" MODIFIED="1414934575369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$8_largest_prod.coverage" NAME="8_largest_prod Coverage Results" MODIFIED="1414986820069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$22_names.coverage" NAME="22_names Coverage Results" MODIFIED="1415034265246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$37_trunc_prime.coverage" NAME="37_trunc_prime Coverage Results" MODIFIED="1415043743519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$15_lattice.coverage" NAME="15_lattice Coverage Results" MODIFIED="1414991642133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$16_power_sum.coverage" NAME="16_power_sum Coverage Results" MODIFIED="1414993691866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$5_lcm.coverage" NAME="5_lcm Coverage Results" MODIFIED="1414946104534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
-    <SUITE FILE_PATH="coverage/PyScripts$12_tiangle_num.coverage" NAME="12_tiangle_num Coverage Results" MODIFIED="1415016609760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$12_tiangle_num.coverage" NAME="12_tiangle_num Coverage Results" MODIFIED="1415092642022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$14_collatz.coverage" NAME="14_collatz Coverage Results" MODIFIED="1414993274828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$46_goldbach.coverage" NAME="46_goldbach Coverage Results" MODIFIED="1415042927549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$3_prime.coverage" NAME="3_prime Coverage Results" MODIFIED="1414986959301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
@@ -82,12 +84,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12_tiangle_num.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Euler/12_tiangle_num.py">
+      <file leaf-file-name="127_abc_hit.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Euler/127_abc_hit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28936172" vertical-offset="0" max-vertical-offset="470">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="901">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="e#59#132#0" expanded="true" />
+                <element signature="e#317#471#0" expanded="true" />
+                <element signature="e#487#608#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="483_permu.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Euler/483_permu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25211865" vertical-offset="306" max-vertical-offset="867">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding>
+                <element signature="e#82#177#0" expanded="true" />
+                <element signature="e#202#228#0" expanded="true" />
+                <element signature="e#501#515#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +159,13 @@
         <option value="$PROJECT_DIR$/Euler/48_series.py" />
         <option value="$PROJECT_DIR$/Euler/13_sum.py" />
         <option value="$PROJECT_DIR$/Euler/37_trunc_prime.py" />
-        <option value="$PROJECT_DIR$/Euler/12_tiangle_num.py" />
         <option value="$PROJECT_DIR$/Euler/11_grid_prod.py" />
+        <option value="$PROJECT_DIR$/Euler/12_tiangle_num.py" />
+        <option value="$PROJECT_DIR$/Euler/145_reversible.py" />
+        <option value="$PROJECT_DIR$/Euler/102_triangles.txt" />
+        <option value="$PROJECT_DIR$/Euler/102_triangles.py" />
+        <option value="$PROJECT_DIR$/Euler/127_abc_hit.py" />
+        <option value="$PROJECT_DIR$/Euler/483_permu.py" />
       </list>
     </option>
   </component>
@@ -248,8 +273,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11_grid_prod">
-    <configuration default="false" name="37_trunc_prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.483_permu">
+    <configuration default="false" name="12_tiangle_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -262,13 +287,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/37_trunc_prime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/12_tiangle_num.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="49_primr_oermu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="145_reversible" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -281,13 +306,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/49_primr_oermu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/145_reversible.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="48_series" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="102_triangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -300,13 +325,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/48_series.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/102_triangles.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="13_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="127_abc_hit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -319,13 +344,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/13_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/127_abc_hit.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="11_grid_prod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="483_permu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -338,7 +363,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/11_grid_prod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler/483_permu.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -495,19 +520,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.37_trunc_prime" />
-      <item index="1" class="java.lang.String" itemvalue="Python.49_primr_oermu" />
-      <item index="2" class="java.lang.String" itemvalue="Python.48_series" />
-      <item index="3" class="java.lang.String" itemvalue="Python.13_sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11_grid_prod" />
+      <item index="0" class="java.lang.String" itemvalue="Python.12_tiangle_num" />
+      <item index="1" class="java.lang.String" itemvalue="Python.145_reversible" />
+      <item index="2" class="java.lang.String" itemvalue="Python.102_triangles" />
+      <item index="3" class="java.lang.String" itemvalue="Python.127_abc_hit" />
+      <item index="4" class="java.lang.String" itemvalue="Python.483_permu" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11_grid_prod" />
-        <item index="1" class="java.lang.String" itemvalue="Python.13_sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.48_series" />
-        <item index="3" class="java.lang.String" itemvalue="Python.49_primr_oermu" />
-        <item index="4" class="java.lang.String" itemvalue="Python.37_trunc_prime" />
+        <item index="0" class="java.lang.String" itemvalue="Python.483_permu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.127_abc_hit" />
+        <item index="2" class="java.lang.String" itemvalue="Python.102_triangles" />
+        <item index="3" class="java.lang.String" itemvalue="Python.145_reversible" />
+        <item index="4" class="java.lang.String" itemvalue="Python.12_tiangle_num" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +570,11 @@
       <created>1415018412760</created>
       <updated>1415018412760</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Euler_25">
+      <created>1415091166277</created>
+      <updated>1415091166277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -557,11 +586,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18622951" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1914754" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5003287" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3324397" sideWeight="0.49967128" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33154362" sideWeight="0.5003279" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -591,54 +620,13 @@
     <MESSAGE value="Test 1" />
     <MESSAGE value="Stable" />
     <MESSAGE value="Wiki_v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wiki_v1" />
+    <MESSAGE value="Euler_25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler_25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Euler/32_pandigital.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/37_trunc_prime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
-          <caret line="6" column="8" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#71#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/49_primr_oermu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="663">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/48_series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/13_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/15_lattice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -651,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="544">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="544">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/5_lcm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68432206" vertical-offset="0" max-vertical-offset="578">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/6_sum_square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46822035" vertical-offset="0" max-vertical-offset="472">
@@ -847,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/15_lattice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/20_fact_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43404254" vertical-offset="0" max-vertical-offset="470">
@@ -922,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04735376" vertical-offset="0" max-vertical-offset="718">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#71#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.591922" vertical-offset="0" max-vertical-offset="718">
           <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09470752" vertical-offset="0" max-vertical-offset="718">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,17 +928,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78118163" vertical-offset="0" max-vertical-offset="493">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#1727#2246#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/102_triangles.txt">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16590" max-vertical-offset="17085">
+          <caret line="999" column="27" selection-start-line="999" selection-start-column="27" selection-end-line="999" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/15_lattice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/5_lcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3970276" vertical-offset="0" max-vertical-offset="471">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Euler/12_tiangle_num.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28936172" vertical-offset="0" max-vertical-offset="470">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.2881356" vertical-offset="1003" max-vertical-offset="1598">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/102_triangles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43220338" vertical-offset="0" max-vertical-offset="472">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/145_reversible.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3601695" vertical-offset="0" max-vertical-offset="472">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/127_abc_hit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="901">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#59#132#0" expanded="true" />
+            <element signature="e#317#471#0" expanded="true" />
+            <element signature="e#487#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler/483_permu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25211865" vertical-offset="306" max-vertical-offset="867">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#82#177#0" expanded="true" />
+            <element signature="e#202#228#0" expanded="true" />
+            <element signature="e#501#515#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
