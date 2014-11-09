@@ -1,0 +1,6 @@
+{
+    "matrix" : "matrixadd,matrixin,matrixmult,matrixtrans",
+    "string" : "strcopy,strencrypt,strreplace,strsearch,strsort,stringinfile",
+    "file" : "filesort,filencrypt,filedecrypt",
+    "debug" : "analyse,test"
+}
