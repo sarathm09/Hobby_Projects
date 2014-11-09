@@ -13,6 +13,6 @@ while nothing.isdigit():
 	txt = urllib.urlopen('http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=' + nothing).read()
 	n = nothin.findall(txt)
 	nothing = n[0]
-	print n, nothing
+	print txt
 	if nothing == '16044':
 		nothing = str(int(nothing)/2)
