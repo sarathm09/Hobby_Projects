@@ -1,0 +1,77 @@
+##matrixadd##
+int [][] matrixadd(int *m, int *n, int *c,int *d, int first[10][10], int second[10][10]){
+int i,j,r1,c1,r2,c2,sum[10][10];
+r1=*m;c1=*n;r2=*c;c2=*d;
+for ( r2= 0 ; r2 < r1 ; r2++ )
+      for ( c2= 0 ; c2< c1 ;c2++ )
+         sum[r2][c2] = first[r2][c2] + second[r2][c2];
+for ( r2 = 0 ; r2<r1 ;r2++ ){
+    for ( c2 = 0 ; c2 < c1 ; c2++ )
+        printf("%d\t", sum[r2][c2]);
+        printf("\n");
+   }
+   return sum;
+}
+
+##matrixadd##
+##matrixin##
+int [][] matrixin(int *r, int *c){
+    int i, j, int mat[10][10];
+    printf("\n Enter the number of rows : ");
+    scanf("%d",&*r);
+    printf("\n Enter the nummber of columns : ");
+    scanf("%d",&*c);
+    printf("\n Enter the elements of the matrix : ");
+    for(i=0;i<*r;i++){
+        for(j=0;j<*c;j++){
+            scanf("%d",&mat[i][j]);
+            }
+        }
+    return mat;
+}
+
+##matrixin##
+##matrixmult##
+void matrixmult(int *m,int *n,int *p,int *q,int *c,int *d,int first[10][10],int second[10][10],int multiply[10][10]){
+    int k,sum=0;
+    int fr,fc,sr,sc,mr,mc;
+    fr=*m;fc=*n;sr=*p;sc=*q;mr=*c;mc=*d;
+    if ( fc != sr )
+        printf("Matrices with entered orders can't be multiplied with each other.\n");
+    for ( mr = 0 ; mr < fr ; mr++ ){
+        for ( mc = 0 ; mc < sc ; mc++ ){
+            for ( k = 0 ; k < sr ; k++ )
+                sum = sum + first[mr][k]*second[k][mc];
+            multiply[mr][mc] = sum;
+            sum = 0;
+          }
+        }
+    for ( mr = 0 ; mr < fr ; mr++ ){
+        for ( mc = 0 ; mc < sc ; mc++ )
+            printf("%d\t", multiply[mr][mc]);
+            printf("\n");
+        }
+        return 0;
+    }
+
+##matrixmult##
+##matrixtrans##
+void matrixtrans(int *m,int *n,int matrix[10][10],int transpose[10][10]){
+   int i,j;
+   int r,c;
+   r=*m;
+   c=*n;
+   for( i = 0 ; i < r ; i++ ){
+      for( j = 0 ; j < c ; j++ ){
+         transpose[j][i] = matrix[i][j];
+      }
+   }
+   for( i = 0 ; i < c ; i++ ){
+      for( j = 0 ; j < r ; j++ ){
+         printf("%d\t",transpose[i][j]);
+      }
+      printf("\n");
+   }
+ }
+
+##matrixtrans##
