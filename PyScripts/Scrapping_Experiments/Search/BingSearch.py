@@ -7,16 +7,16 @@ import re
 
 
 def searchhtml(keyword):
-	chrome = mechanize.Browser()
-	chrome.set_handle_robots(False)
-	chrome.addheaders = [('User-agent',
+	ie = mechanize.Browser()
+	ie.set_handle_robots(False)
+	ie.addheaders = [('User-agent',
 						  'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.2; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3) ')]
 
 	base_url = 'http://www.bing.com/search?q='
 	search_url = base_url + keyword.replace(' ', '+')
 
-	return chrome.open(search_url).read() + chrome.open(search_url + "&first=20").read() + \
-		   chrome.open(search_url + "&first=30").read()
+	return ie.open(search_url).read() + ie.open(search_url + "&first=20").read() + \
+		   ie.open(search_url + "&first=30").read()
 
 
 def getlinks(keyword):
