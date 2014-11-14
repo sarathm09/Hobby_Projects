@@ -4,6 +4,7 @@
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Test_Projects\PyScripts\Scrapping_Experiments\Search\Search.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/main.py" />
     </list>
     <ignored path="PyScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,24 +145,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BingSearch.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BingSearch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37310195" vertical-offset="406" max-vertical-offset="918">
-              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="35" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="901">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#43#59#0" expanded="true" />
                 <element signature="e#161#671#0" expanded="true" />
-                <element signature="e#1229#1383#0" expanded="true" />
+                <element signature="e#703#1162#0" expanded="true" />
+                <element signature="e#1201#1355#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state vertical-scroll-proportion="0.6455696" vertical-offset="0" max-vertical-offset="493">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="e#42#70#0" expanded="true" />
@@ -267,8 +269,8 @@
         <option value="$PROJECT_DIR$/Scrapping_Experiments/SearchGoogle/GoogleSearch.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" />
+        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
       </list>
     </option>
   </component>
@@ -492,7 +494,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py" />
+      <option name="SCRIPT_NAME" value="E:\My Documents\GitHub\Test_Projects\PyScripts\Scrapping_Experiments\Search\main.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -795,7 +797,11 @@
       <created>1415985736487</created>
       <updated>1415985736487</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="bing_search">
+      <created>1415985753467</created>
+      <updated>1415985753467</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -890,10 +896,10 @@
     <MESSAGE value="l8" />
     <MESSAGE value="d_link" />
     <MESSAGE value="goog_search" />
-    <MESSAGE value="bing_search" />
     <MESSAGE value="Search" />
     <MESSAGE value="yahoo_search" />
-    <option name="LAST_COMMIT_MESSAGE" value="yahoo_search" />
+    <MESSAGE value="bing_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="bing_search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1242,16 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#42#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
@@ -1279,12 +1275,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37310195" vertical-offset="406" max-vertical-offset="918">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="35" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="901">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#43#59#0" expanded="true" />
             <element signature="e#161#671#0" expanded="true" />
-            <element signature="e#1229#1383#0" expanded="true" />
+            <element signature="e#703#1162#0" expanded="true" />
+            <element signature="e#1201#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6455696" vertical-offset="0" max-vertical-offset="493">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#42#70#0" expanded="true" />
           </folding>
         </state>
       </provider>

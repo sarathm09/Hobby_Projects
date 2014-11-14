@@ -32,8 +32,7 @@ def getlinks(keyword, num):
 	h2re = re.compile('<a[^<>]*>(.*)</a>')
 	for a in bs:
 		item = str(BeautifulSoup(str(a)).find('h2'))
-		heading = HTMLParser.HTMLParser().unescape(re.findall(h2re, item)[0].replace('<strong>', '').replace('</strong>',
-																											 ''))
+		heading = HTMLParser.HTMLParser().unescape(re.findall(h2re, item)[0].replace('<strong>', '').replace('</strong>', ''))
 		results.append([heading, re.findall(linkre, item)[0]])
 	return results
 
