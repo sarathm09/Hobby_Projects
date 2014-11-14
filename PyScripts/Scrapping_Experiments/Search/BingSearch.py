@@ -19,7 +19,7 @@ def searchhtml(keyword, num):
 
 	htmltext = ""
 	for i in range(0, num):
-		htmltext += str(ie.open(search_url + "&first=" + str(i * 10).read()))
+		htmltext += str(ie.open(search_url + "&first=" + str(i * 10)).read())
 
 	return htmltext
 
