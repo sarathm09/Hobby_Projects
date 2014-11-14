@@ -1,7 +1,6 @@
 __author__ = 'T90'
 __version__ = '1.0.0'
 
-import re
 import mechanize
 import HTMLParser
 from BeautifulSoup import BeautifulSoup
@@ -21,14 +20,10 @@ def getdata(id, passw):
 		print 'Auth Success'
 		marklistpage = browser.open('http://rajagiritech.ac.in/stud/parent/Stud_View.asp?Sem=S7')
 		html = str(marklistpage.read()).lower()
-		bs = BeautifulSoup(marklistpage)
+		bs = BeautifulSoup(html)
 		print 'Marklist loaded'
-		namere = re.compile('academic[ ]*details[ ]*of[ ]*[.*]on[ ]*s7')
-		ntext = str(BeautifulSoup(html).findAll('font', attrs={'color': '#ff6600'})[0].text)
-		ntext = ntext.replace('academic details of', '').replace('on  s7', '').replace('.', '').upper()
-		#name = str(re.findall(namere, ntext)[0])
-		print ntext
-		print '\n Marklist of ' + name + '\n'
+		name = str(BeautifulSoup(html).findAll('font', attrs={'color': '#ff6600'})[0].text).replace('academic details of', '').replace('on  s7', '').replace('.', '').upper()
+		print '\n Marklist of ' + name
 		table = bs.findAll('table', attrs={"class": "ibox"})[0]
 		rownum = 1
 		for row in table.findAll('tr'):
@@ -38,11 +33,18 @@ def getdata(id, passw):
 				print '\n'
 				for data in td:
 					if colnum in cols:
-						text = HTMLParser.HTMLParser().unescape(data.text)
-						text = text + "\t\t" if len(text) < 13 else text[:12] + "..."
+						text = HTMLParser.HTMLParser().unescape(data.text).upper()
+						if len(text) < 5:
+							pass
+						else:
+							temp = ""
+							for i in xrange(0, 15 - len(text)):
+								temp += " "
+							text = text + temp if len(text) < 16 else text[:15] + "..."
 						print text, "\t",
 					colnum += 1
 			rownum += 1
+		print ''
 
 
 if __name__ == '__main__':

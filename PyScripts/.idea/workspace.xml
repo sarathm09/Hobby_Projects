@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -17,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PyScripts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1415602182093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHC_reborn" />
     <SUITE FILE_PATH="coverage/PyScripts$test.coverage" NAME="test Coverage Results" MODIFIED="1415544287674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/SHC reborn/bin/funcs" />
-    <SUITE FILE_PATH="coverage/PyScripts$WebLogin.coverage" NAME="WebLogin Coverage Results" MODIFIED="1415997089547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
+    <SUITE FILE_PATH="coverage/PyScripts$WebLogin.coverage" NAME="WebLogin Coverage Results" MODIFIED="1415997361380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
     <SUITE FILE_PATH="coverage/PyScripts$even_fibo.coverage" NAME="even_fibo Coverage Results" MODIFIED="1414927437651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$mail.coverage" NAME="mail Coverage Results" MODIFIED="1414908220047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Email" />
     <SUITE FILE_PATH="coverage/PyScripts$1_sum_3_5.coverage" NAME="1_sum_3_5 Coverage Results" MODIFIED="1414927347536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
@@ -38,6 +39,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$Search.coverage" NAME="Search Coverage Results" MODIFIED="1415985274648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$8_largest_prod.coverage" NAME="8_largest_prod Coverage Results" MODIFIED="1414986820069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$4_palin.coverage" NAME="4_palin Coverage Results" MODIFIED="1414936017799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1415998643689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$22_names.coverage" NAME="22_names Coverage Results" MODIFIED="1415034265246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$37_trunc_prime.coverage" NAME="37_trunc_prime Coverage Results" MODIFIED="1415043743519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$15_lattice.coverage" NAME="15_lattice Coverage Results" MODIFIED="1414991642133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
@@ -119,10 +121,22 @@
       <file leaf-file-name="WebLogin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6814346" vertical-offset="306" max-vertical-offset="952">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.70065075" vertical-offset="0" max-vertical-offset="986">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
-                <element signature="e#42#51#0" expanded="true" />
+                <element signature="e#42#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getpass_brute.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="612">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="e#83#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Euler/extract_q.py" />
         <option value="$PROJECT_DIR$/Euler/20_fact_sum.py" />
         <option value="$PROJECT_DIR$/Euler/30_armstrong.py" />
         <option value="$PROJECT_DIR$/Euler/25_fibo.py" />
@@ -214,6 +227,7 @@
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/main.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py" />
+        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
       </list>
     </option>
   </component>
@@ -297,6 +311,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scrapping_Experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -329,7 +361,7 @@
       <recent name="E:\My Documents\GitHub\Test_Projects\PyScripts\PyChallenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WebLogin">
+  <component name="RunManager" selected="Python.getpass_brute">
     <configuration default="false" name="BingSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,25 +376,6 @@
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GoogleSearch (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyScripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -420,6 +433,25 @@
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="getpass_brute" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scrapping_Experiments/Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -577,18 +609,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.BingSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.YahooSearch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Search" />
-      <item index="4" class="java.lang.String" itemvalue="Python.WebLogin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.YahooSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Search" />
+      <item index="3" class="java.lang.String" itemvalue="Python.WebLogin" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getpass_brute" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.WebLogin" />
-        <item index="1" class="java.lang.String" itemvalue="Python.YahooSearch" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BingSearch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Search" />
-        <item index="4" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getpass_brute" />
+        <item index="1" class="java.lang.String" itemvalue="Python.WebLogin" />
+        <item index="2" class="java.lang.String" itemvalue="Python.YahooSearch" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BingSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Search" />
       </list>
     </recent_temporary>
   </component>
@@ -750,7 +782,11 @@
       <created>1415995002578</created>
       <updated>1415995002578</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fixed name not present issue">
+      <created>1415997142145</created>
+      <updated>1415997142145</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -852,19 +888,13 @@
     <MESSAGE value="WebLogin0.1" />
     <MESSAGE value="WebLogin_prealpha" />
     <MESSAGE value="WebLogin_prealphav1" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebLogin_prealphav1" />
+    <MESSAGE value="fixed name not present issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed name not present issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Euler/25_fibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39787233" vertical-offset="0" max-vertical-offset="470">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/24_permu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57995737" vertical-offset="0" max-vertical-offset="469">
@@ -1235,12 +1265,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="612">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#83#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6814346" vertical-offset="306" max-vertical-offset="952">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.70065075" vertical-offset="0" max-vertical-offset="986">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#42#51#0" expanded="true" />
+            <element signature="e#42#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
