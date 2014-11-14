@@ -20,11 +20,14 @@ def getdata(id, passw):
 	if 'Parent.asp' in str(browser.geturl()):
 		print 'Auth Success'
 		marklistpage = browser.open('http://rajagiritech.ac.in/stud/parent/Stud_View.asp?Sem=S7')
+		html = str(marklistpage.read()).lower()
 		bs = BeautifulSoup(marklistpage)
 		print 'Marklist loaded'
-		namere = re.compile('Academic details of <b>([.*])on S7</b>')
-		print re.search(namere, str(marklistpage))
-		name = str(re.findall(namere, str(marklistpage))[0])
+		namere = re.compile('academic[ ]*details[ ]*of[ ]*[.*]on[ ]*s7')
+		ntext = str(BeautifulSoup(html).findAll('font', attrs={'color': '#ff6600'})[0].text)
+		ntext = ntext.replace('academic details of', '').replace('on  s7', '').replace('.', '').upper()
+		#name = str(re.findall(namere, ntext)[0])
+		print ntext
 		print '\n Marklist of ' + name + '\n'
 		table = bs.findAll('table', attrs={"class": "ibox"})[0]
 		rownum = 1
