@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -755,7 +754,11 @@
       <created>1415976953604</created>
       <updated>1415976953604</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="bing_search">
+      <created>1415977861393</created>
+      <updated>1415977861393</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

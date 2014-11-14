@@ -15,7 +15,8 @@ def searchhtml(keyword):
 	base_url = 'https://www.google.co.in/search?q='
 	search_url = base_url + keyword.replace(' ', '+')
 
-	return chrome.open(search_url)
+	return chrome.open(search_url).read() + chrome.open(search_url + "&start=10").read() + \
+		   chrome.open(search_url + "&start=20").read()
 
 
 def getlinks(keyword):
@@ -32,5 +33,6 @@ def getlinks(keyword):
 
 if __name__ == '__main__':
 	results = getlinks("Google")
+	print "Top " + str(len(results)) + " results from Google\n"
 	for result in results:
 		print result[0] + ", " + result[1]
