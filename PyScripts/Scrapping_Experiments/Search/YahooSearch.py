@@ -40,7 +40,7 @@ def getlinks(keyword, num):
 
 
 def display_results(keyword, num):
-	results = getlinks(keyword)
+	results = getlinks(keyword, num)
 	print "Top " + str(len(results)) + " results from Yahoo\n"
 	for result in results:
 		print result[0] + ", " + result[1]
