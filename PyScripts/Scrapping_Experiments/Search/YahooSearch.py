@@ -21,7 +21,7 @@ def searchhtml(keyword, num):
 
 	htmltext = ""
 	for i in range(0, num):
-		htmltext += str(moz.open(search_url + "&b=" + str((i * 10) + 1).read()))
+		htmltext += str(moz.open(search_url + "&b=" + str((i * 10) + 1)).read())
 
 	return htmltext
 
@@ -30,18 +30,18 @@ def getlinks(keyword, num):
 	results = []
 	html = searchhtml(keyword, num)
 	bs = BeautifulSoup(html).findAll('div', attrs={'class': 'res'})
-	linkre = re.compile('<a.*href="(.*)".*>.*</a>')
+	linkre = re.compile('<a.*href="([^"]*)".*>.*</a>')
 	h3re = re.compile('<a[^>]*>(.*)</a>')
 	for a in bs:
 		item = str(BeautifulSoup(str(a)).find('h3'))
-		heading = HTMLParser.HTMLParser().unescape(re.findall(h3re, item)[0])
+		heading = HTMLParser.HTMLParser().unescape(re.findall(h3re, item)[0].replace('<b>', '').replace('</b>', ''))
 		results.append([heading, re.findall(linkre, item)[0]])
 	return results
 
 
 def display_results(keyword, num):
 	results = getlinks(keyword, num)
-	print "Top " + str(len(results)) + " results from Yahoo\n"
+	print "\nTop " + str(len(results)) + " results from Yahoo\n"
 	for result in results:
 		print result[0] + ", " + result[1]
 
