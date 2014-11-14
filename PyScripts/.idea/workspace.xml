@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,6 +37,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$l7.coverage" NAME="l7 Coverage Results" MODIFIED="1415701265472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyChallenges" />
     <SUITE FILE_PATH="coverage/PyScripts$10_sum_prime.coverage" NAME="10_sum_prime Coverage Results" MODIFIED="1414989857616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$50_sum_primes.coverage" NAME="50_sum_primes Coverage Results" MODIFIED="1414998163843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$Search.coverage" NAME="Search Coverage Results" MODIFIED="1415984287376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$8_largest_prod.coverage" NAME="8_largest_prod Coverage Results" MODIFIED="1414986820069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$4_palin.coverage" NAME="4_palin Coverage Results" MODIFIED="1414936017799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$22_names.coverage" NAME="22_names Coverage Results" MODIFIED="1415034265246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
@@ -64,7 +68,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$GoogleSearch.coverage" NAME="GoogleSearch Coverage Results" MODIFIED="1415975330383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/SearchGoogle" />
     <SUITE FILE_PATH="coverage/PyScripts$458_perm.coverage" NAME="458_perm Coverage Results" MODIFIED="1414934575369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$YahooSearch.coverage" NAME="YahooSearch Coverage Results" MODIFIED="1415982686429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-    <SUITE FILE_PATH="coverage/PyScripts$GoogleSearch__1_.coverage" NAME="GoogleSearch (1) Coverage Results" MODIFIED="1415977628133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
+    <SUITE FILE_PATH="coverage/PyScripts$GoogleSearch__1_.coverage" NAME="GoogleSearch (1) Coverage Results" MODIFIED="1415984445952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$16_power_sum.coverage" NAME="16_power_sum Coverage Results" MODIFIED="1414993691866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$BingSearch.coverage" NAME="BingSearch Coverage Results" MODIFIED="1415977614791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$l8.coverage" NAME="l8 Coverage Results" MODIFIED="1415700863906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyChallenges" />
@@ -84,16 +88,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="file.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHC_reborn/data/file.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHC_reborn/test.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,27 +118,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleSearch.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GoogleSearch.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="731">
-              <caret line="28" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.6772152" vertical-offset="410" max-vertical-offset="884">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#42#58#0" expanded="true" />
-                <element signature="e#137#592#0" expanded="true" />
+                <element signature="e#160#609#0" expanded="true" />
+                <element signature="e#641#1042#0" expanded="true" />
+                <element signature="e#1081#1237#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YahooSearch.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="YahooSearch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39029536" vertical-offset="240" max-vertical-offset="799">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding>
                 <element signature="e#84#100#0" expanded="true" />
-                <element signature="e#179#569#0" expanded="true" />
+                <element signature="e#202#604#0" expanded="true" />
+                <element signature="e#636#1040#0" expanded="true" />
+                <element signature="e#1079#1227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,12 +151,25 @@
       <file leaf-file-name="BingSearch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="901">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
-                <element signature="e#42#58#0" expanded="true" />
-                <element signature="e#137#645#0" expanded="true" />
-                <element signature="e#672#1072#0" expanded="true" />
+                <element signature="e#43#59#0" expanded="true" />
+                <element signature="e#161#671#0" expanded="true" />
+                <element signature="e#703#1113#0" expanded="true" />
+                <element signature="e#1152#1304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="e#42#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Euler/14_collatz.py" />
         <option value="$PROJECT_DIR$/Euler/16_power_sum.py" />
         <option value="$PROJECT_DIR$/Euler/50_sum_primes.py" />
         <option value="$PROJECT_DIR$/Euler/extract_q.py" />
@@ -260,9 +270,10 @@
         <option value="$PROJECT_DIR$/Dead_Link_Finder/getdata.py" />
         <option value="$PROJECT_DIR$/Dead_Link_Finder/main.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/SearchGoogle/GoogleSearch.py" />
+        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" />
+        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
       </list>
     </option>
   </component>
@@ -396,26 +407,7 @@
       <recent name="E:\My Documents\GitHub\Test_Projects\PyScripts\PyChallenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.YahooSearch">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dead_Link_Finder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyScripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dead_Link_Finder/main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.GoogleSearch (1)">
     <configuration default="false" name="GoogleSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -487,6 +479,25 @@
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scrapping_Experiments/Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -643,19 +654,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GoogleSearch" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BingSearch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.YahooSearch" />
+      <item index="0" class="java.lang.String" itemvalue="Python.GoogleSearch" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BingSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.YahooSearch" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Search" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.YahooSearch" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BingSearch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GoogleSearch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GoogleSearch (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Search" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GoogleSearch" />
+        <item index="3" class="java.lang.String" itemvalue="Python.YahooSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.BingSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -769,7 +780,11 @@
       <created>1415978283335</created>
       <updated>1415978283335</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="yahoo_search">
+      <created>1415982711013</created>
+      <updated>1415982711013</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -806,7 +821,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5009836" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3261745" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3261745" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -865,19 +880,13 @@
     <MESSAGE value="d_link" />
     <MESSAGE value="goog_search" />
     <MESSAGE value="bing_search" />
-    <option name="LAST_COMMIT_MESSAGE" value="bing_search" />
+    <MESSAGE value="yahoo_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="yahoo_search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Euler/20_fact_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43404254" vertical-offset="0" max-vertical-offset="470">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/30_armstrong.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4574468" vertical-offset="108" max-vertical-offset="578">
@@ -1221,36 +1230,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py">
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/Search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="731">
-          <caret line="28" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
-            <element signature="e#42#58#0" expanded="true" />
-            <element signature="e#137#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#42#58#0" expanded="true" />
-            <element signature="e#137#645#0" expanded="true" />
-            <element signature="e#672#1072#0" expanded="true" />
+            <element signature="e#42#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39029536" vertical-offset="240" max-vertical-offset="799">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="e#84#100#0" expanded="true" />
-            <element signature="e#179#569#0" expanded="true" />
+            <element signature="e#202#604#0" expanded="true" />
+            <element signature="e#636#1040#0" expanded="true" />
+            <element signature="e#1079#1227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="901">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+            <element signature="e#161#671#0" expanded="true" />
+            <element signature="e#703#1113#0" expanded="true" />
+            <element signature="e#1152#1304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6772152" vertical-offset="410" max-vertical-offset="884">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#58#0" expanded="true" />
+            <element signature="e#160#609#0" expanded="true" />
+            <element signature="e#641#1042#0" expanded="true" />
+            <element signature="e#1081#1237#0" expanded="true" />
           </folding>
         </state>
       </provider>

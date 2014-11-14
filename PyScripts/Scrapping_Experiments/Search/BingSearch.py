@@ -1,12 +1,14 @@
+
 __author__ = 'T90'
 __version__ = '1.0.0'
 
 import mechanize
 from BeautifulSoup import BeautifulSoup
 import re
+import HTMLParser
 
 
-def searchhtml(keyword):
+def searchhtml(keyword, num):
 	ie = mechanize.Browser()
 	ie.set_handle_robots(False)
 	ie.addheaders = [('User-agent',
@@ -15,24 +17,32 @@ def searchhtml(keyword):
 	base_url = 'http://www.bing.com/search?q='
 	search_url = base_url + keyword.replace(' ', '+')
 
-	return ie.open(search_url).read() + ie.open(search_url + "&first=20").read() + \
-		   ie.open(search_url + "&first=30").read()
+	htmltext = ""
+	for i in range(0, num):
+		htmltext += str(ie.open(search_url + "&first=" + str(i * 10).read()))
+
+	return htmltext
 
 
-def getlinks(keyword):
+def getlinks(keyword, num):
 	results = []
-	html = searchhtml(keyword)
+	html = searchhtml(keyword, num)
 	bs = BeautifulSoup(html).findAll('li', attrs={'class': 'b_algo'})
 	linkre = re.compile('<a.*href="([^"]*)".*>.*</a>')
 	h2re = re.compile('<a[^<>]*>(.*)</a>')
 	for a in bs:
 		item = str(BeautifulSoup(str(a)).find('h2'))
-		results.append([re.findall(h2re, item)[0].replace('<strong>', '').replace('</strong>', ''), re.findall(linkre, item)[0]])
+		heading = HTMLParser.HTMLParser().unescape(re.findall(h2re, item)[0])
+		results.append([heading, re.findall(linkre, item)[0]])
 	return results
 
 
-if __name__ == '__main__':
-	results = getlinks("Google")
+def display_results(keyword, num):
+	results = getlinks(keyword, num)
 	print "Top " + str(len(results)) + " results from Bing\n"
 	for result in results:
 		print result[0] + ", " + result[1]
+
+
+if __name__ == '__main__':
+	display_results("Google", 1)
