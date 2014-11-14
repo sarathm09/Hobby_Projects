@@ -30,7 +30,7 @@ def getlinks(keyword):
 	return results
 
 
-
-results = getlinks("Google")
-for result in results:
-	print result[0] + ", " + result[1]
+if __name__ == '__main__':
+	results = getlinks("Google")
+	for result in results:
+		print result[0] + ", " + result[1]
