@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -131,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YahooSearch.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="YahooSearch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28691983" vertical-offset="408" max-vertical-offset="969">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="969">
               <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="e#84#100#0" expanded="true" />
@@ -145,10 +144,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BingSearch.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BingSearch.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="918">
+            <state vertical-scroll-proportion="0.37310195" vertical-offset="406" max-vertical-offset="918">
               <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="35" selection-end-column="112" />
               <folding>
                 <element signature="e#43#59#0" expanded="true" />
@@ -792,7 +791,11 @@
       <created>1415985268894</created>
       <updated>1415985268894</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="yahoo_search">
+      <created>1415985736487</created>
+      <updated>1415985736487</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -887,10 +890,10 @@
     <MESSAGE value="l8" />
     <MESSAGE value="d_link" />
     <MESSAGE value="goog_search" />
-    <MESSAGE value="yahoo_search" />
     <MESSAGE value="bing_search" />
     <MESSAGE value="Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search" />
+    <MESSAGE value="yahoo_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="yahoo_search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1262,26 +1265,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="918">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="35" selection-end-column="112" />
-          <folding>
-            <element signature="e#43#59#0" expanded="true" />
-            <element signature="e#161#671#0" expanded="true" />
-            <element signature="e#1229#1383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/YahooSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28691983" vertical-offset="408" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="969">
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="e#84#100#0" expanded="true" />
             <element signature="e#202#604#0" expanded="true" />
             <element signature="e#1121#1276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37310195" vertical-offset="406" max-vertical-offset="918">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="35" selection-end-column="112" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+            <element signature="e#161#671#0" expanded="true" />
+            <element signature="e#1229#1383#0" expanded="true" />
           </folding>
         </state>
       </provider>
