@@ -18,7 +18,7 @@ def searchhtml(keyword):
 	return chrome.open(search_url)
 
 
-def searchlinks(keyword):
+def getlinks(keyword):
 	results = []
 	html = searchhtml(keyword)
 	bs = BeautifulSoup(html).findAll('li', attrs={'class': 'g'})
@@ -27,8 +27,10 @@ def searchlinks(keyword):
 	for a in bs:
 		item = str(BeautifulSoup(str(a)).find('h3'))
 		results.append([re.findall(h3re, item)[0], re.findall(linkre, item)[0]])
-	print results
+	return results
 
 
 
-searchlinks("Flipkart")
+results = getlinks("Google")
+for result in results:
+	print result[0] + ", " + result[1]
