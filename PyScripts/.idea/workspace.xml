@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="rsms_profile">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/details.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSMS-profile/main.py" afterPath="$PROJECT_DIR$/RSMS-profile/main.py" />
+    <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -755,7 +753,11 @@
       <created>1416113615088</created>
       <updated>1416113615088</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="RSMS Profile v1">
+      <created>1416114239560</created>
+      <updated>1416114239560</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -792,7 +794,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5009836" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3261745" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261745" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -862,7 +864,8 @@
     <MESSAGE value="RSET mlist with csv v1.1" />
     <MESSAGE value="rsetpass" />
     <MESSAGE value="rsms_profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="rsms_profile" />
+    <MESSAGE value="RSMS Profile v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="RSMS Profile v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

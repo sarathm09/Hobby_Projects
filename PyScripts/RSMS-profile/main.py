@@ -49,3 +49,4 @@ if __name__ == '__main__':
 		passw = stud[1]
 		getdata(idnum, passw)
 		tocsv(database[n])
+		n += 1
