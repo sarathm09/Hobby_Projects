@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/p.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -46,7 +48,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$14_collatz.coverage" NAME="14_collatz Coverage Results" MODIFIED="1414993274828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$3_prime.coverage" NAME="3_prime Coverage Results" MODIFIED="1414986959301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$24_permu.coverage" NAME="24_permu Coverage Results" MODIFIED="1415017664301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
-    <SUITE FILE_PATH="coverage/PyScripts$main.coverage" NAME="main Coverage Results" MODIFIED="1415903921446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dead_Link_Finder" />
+    <SUITE FILE_PATH="coverage/PyScripts$main.coverage" NAME="main Coverage Results" MODIFIED="1416113445126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RSMS-profile" />
     <SUITE FILE_PATH="coverage/PyScripts$49_primr_oermu.coverage" NAME="49_primr_oermu Coverage Results" MODIFIED="1415045243324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$extract_q.coverage" NAME="extract_q Coverage Results" MODIFIED="1414999839939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$wiki_extract.coverage" NAME="wiki_extract Coverage Results" MODIFIED="1414926591065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wikipedia" />
@@ -67,7 +69,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$458_perm.coverage" NAME="458_perm Coverage Results" MODIFIED="1414934575369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$GoogleSearch.coverage" NAME="GoogleSearch Coverage Results" MODIFIED="1415975330383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/SearchGoogle" />
     <SUITE FILE_PATH="coverage/PyScripts$YahooSearch.coverage" NAME="YahooSearch Coverage Results" MODIFIED="1415985659689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-    <SUITE FILE_PATH="coverage/PyScripts$RsetMarks.coverage" NAME="RsetMarks Coverage Results" MODIFIED="1416067766421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RSMS-marks" />
+    <SUITE FILE_PATH="coverage/PyScripts$RsetMarks.coverage" NAME="RsetMarks Coverage Results" MODIFIED="1416111474697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RSMS-marks" />
     <SUITE FILE_PATH="coverage/PyScripts$GoogleSearch__1_.coverage" NAME="GoogleSearch (1) Coverage Results" MODIFIED="1415984880681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/PyScripts$16_power_sum.coverage" NAME="16_power_sum Coverage Results" MODIFIED="1414993691866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$BingSearch.coverage" NAME="BingSearch Coverage Results" MODIFIED="1415985519106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
@@ -87,7 +89,21 @@
     <favorites_list name="PyScripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53797466" vertical-offset="0" max-vertical-offset="969">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#84#100#0" expanded="true" />
+                <element signature="e#861#992#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Euler/22_names.py" />
-        <option value="$PROJECT_DIR$/Euler/29_distinct_prime.py" />
-        <option value="$PROJECT_DIR$/Euler/32_pandigital.py" />
         <option value="$PROJECT_DIR$/Euler/44_pentagon.py" />
         <option value="$PROJECT_DIR$/Euler/46_goldbach.py" />
         <option value="$PROJECT_DIR$/Euler/49_primr_oermu.py" />
@@ -148,9 +161,12 @@
         <option value="$PROJECT_DIR$/Scrapping_Experiments/WebLogin.py" />
         <option value="$PROJECT_DIR$/RSMS-marks/temp.csv" />
         <option value="$PROJECT_DIR$/RSMS-marks/r.txt" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" />
         <option value="$PROJECT_DIR$/RSMS-marks/RsetMarks.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
+        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" />
+        <option value="$PROJECT_DIR$/RSMS-profile/details.csv" />
+        <option value="$PROJECT_DIR$/RSMS-profile/main.py" />
+        <option value="$PROJECT_DIR$/RSMS-profile/p.txt" />
       </list>
     </option>
   </component>
@@ -221,6 +237,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scrapping_Experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scrapping_Experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSMS-profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -253,26 +315,7 @@
       <recent name="E:\My Documents\GitHub\Test_Projects\PyScripts\PyChallenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RsetMarks">
-    <configuration default="false" name="BingSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyScripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapping_Experiments/Search/BingSearch.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="YahooSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,6 +387,25 @@
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RSMS-marks/RsetMarks.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RSMS-profile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RSMS-profile/main.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -500,19 +562,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BingSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.YahooSearch" />
-      <item index="2" class="java.lang.String" itemvalue="Python.WebLogin" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getpass_brute" />
-      <item index="4" class="java.lang.String" itemvalue="Python.RsetMarks" />
+      <item index="0" class="java.lang.String" itemvalue="Python.YahooSearch" />
+      <item index="1" class="java.lang.String" itemvalue="Python.WebLogin" />
+      <item index="2" class="java.lang.String" itemvalue="Python.getpass_brute" />
+      <item index="3" class="java.lang.String" itemvalue="Python.RsetMarks" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.RsetMarks" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getpass_brute" />
-        <item index="2" class="java.lang.String" itemvalue="Python.WebLogin" />
-        <item index="3" class="java.lang.String" itemvalue="Python.YahooSearch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BingSearch" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.RsetMarks" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getpass_brute" />
+        <item index="3" class="java.lang.String" itemvalue="Python.WebLogin" />
+        <item index="4" class="java.lang.String" itemvalue="Python.YahooSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -710,8 +772,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1585" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1585" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248322" sideWeight="0.4990164" order="7" side_tool="false" content_ui="tabs" />
@@ -719,7 +781,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22360656" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22360656" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5009836" order="7" side_tool="true" content_ui="tabs" />
@@ -797,20 +859,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Euler/44_pentagon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32553193" vertical-offset="0" max-vertical-offset="470">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler/primes1000000.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="457">
-          <caret line="0" column="7300" selection-start-line="0" selection-start-column="7300" selection-end-line="0" selection-end-column="7300" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Euler/46_goldbach.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43404254" vertical-offset="0" max-vertical-offset="901">
@@ -1088,17 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSMS-marks/RsetMarks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7735426" vertical-offset="879" max-vertical-offset="1326">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-          <folding>
-            <element signature="e#158#1588#0" expanded="true" />
-            <element signature="e#1613#1809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8607595" vertical-offset="0" max-vertical-offset="612">
@@ -1139,17 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="4267">
-          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/getdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43037975" vertical-offset="0" max-vertical-offset="474">
@@ -1163,6 +1189,52 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-marks/RsetMarks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6097046" vertical-offset="0" max-vertical-offset="474">
+          <caret line="74" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/details.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07606264" vertical-offset="0" max-vertical-offset="4301">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="121" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/p.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92827004" vertical-offset="1583" max-vertical-offset="2125">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53797466" vertical-offset="0" max-vertical-offset="969">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#84#100#0" expanded="true" />
+            <element signature="e#861#992#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
