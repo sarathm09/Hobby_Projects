@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/p.txt" />
+    <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="rsms_profile">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/details.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSMS-profile/main.py" afterPath="$PROJECT_DIR$/RSMS-profile/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -46,7 +47,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$14_collatz.coverage" NAME="14_collatz Coverage Results" MODIFIED="1414993274828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$3_prime.coverage" NAME="3_prime Coverage Results" MODIFIED="1414986959301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$24_permu.coverage" NAME="24_permu Coverage Results" MODIFIED="1415017664301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
-    <SUITE FILE_PATH="coverage/PyScripts$main.coverage" NAME="main Coverage Results" MODIFIED="1416113445126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RSMS-profile" />
+    <SUITE FILE_PATH="coverage/PyScripts$main.coverage" NAME="main Coverage Results" MODIFIED="1416114172318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RSMS-profile" />
     <SUITE FILE_PATH="coverage/PyScripts$49_primr_oermu.coverage" NAME="49_primr_oermu Coverage Results" MODIFIED="1415045243324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$extract_q.coverage" NAME="extract_q Coverage Results" MODIFIED="1414999839939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$wiki_extract.coverage" NAME="wiki_extract Coverage Results" MODIFIED="1414926591065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wikipedia" />
@@ -91,11 +92,11 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="969">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.8565401" vertical-offset="223" max-vertical-offset="952">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding>
                 <element signature="e#84#100#0" expanded="true" />
-                <element signature="e#861#992#0" expanded="true" />
+                <element signature="e#183#856#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,9 +163,9 @@
         <option value="$PROJECT_DIR$/RSMS-marks/RsetMarks.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/getpass_brute.py" />
         <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" />
-        <option value="$PROJECT_DIR$/RSMS-profile/details.csv" />
-        <option value="$PROJECT_DIR$/RSMS-profile/main.py" />
         <option value="$PROJECT_DIR$/RSMS-profile/p.txt" />
+        <option value="$PROJECT_DIR$/RSMS-profile/main.py" />
+        <option value="$PROJECT_DIR$/RSMS-profile/details.csv" />
       </list>
     </option>
   </component>
@@ -750,7 +751,11 @@
       <created>1416113587251</created>
       <updated>1416113587251</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="rsms_profile">
+      <created>1416113615088</created>
+      <updated>1416113615088</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -856,7 +861,8 @@
     <MESSAGE value="RSET mlist v1" />
     <MESSAGE value="RSET mlist with csv v1.1" />
     <MESSAGE value="rsetpass" />
-    <option name="LAST_COMMIT_MESSAGE" value="rsetpass" />
+    <MESSAGE value="rsms_profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="rsms_profile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,14 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSMS-profile/details.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07606264" vertical-offset="0" max-vertical-offset="4301">
@@ -1230,13 +1228,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/details.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03586498" vertical-offset="0" max-vertical-offset="474">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="969">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.8565401" vertical-offset="223" max-vertical-offset="952">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding>
             <element signature="e#84#100#0" expanded="true" />
-            <element signature="e#861#992#0" expanded="true" />
+            <element signature="e#183#856#0" expanded="true" />
           </folding>
         </state>
       </provider>

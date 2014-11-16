@@ -28,24 +28,24 @@ def getdata(id, passw):
 		bs = BeautifulSoup(html)
 		for inp in bs.findAll('input', attrs={"disabled": "disabled"}):
 			te.append(str(inp['value']))
-		print te[1].replace('.', '')
+		print "Completed : ", te[1].replace('.', '')
 		database.append(te)
 
 
-def tocsv(data):
+def tocsv(student):
 	f = open('details.csv', 'a')
-	for student in data:
-		for details in student:
-				f.write(details + ", ")
-		f.write("\n")
+	for details in student:
+		f.write(details + ", ")
+	f.write("\n")
 	f.close()
 
 
 if __name__ == '__main__':
 	data = open('p.txt', 'r').read().split('\n')
+	n = 0
 	for temp in data:
 		stud = temp.split(',')
 		idnum = stud[0]
 		passw = stud[1]
 		getdata(idnum, passw)
-	tocsv(database)
+		tocsv(database[n])
