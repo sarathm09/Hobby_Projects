@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/main.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSMS-profile/p.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" afterPath="$PROJECT_DIR$/Scrapping_Experiments/Search/rsetpass.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -93,8 +91,8 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53797466" vertical-offset="0" max-vertical-offset="969">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="969">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding>
                 <element signature="e#84#100#0" expanded="true" />
                 <element signature="e#861#992#0" expanded="true" />
@@ -748,7 +746,11 @@
       <created>1416066594120</created>
       <updated>1416066594120</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="rsetpass">
+      <created>1416113587251</created>
+      <updated>1416113587251</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -853,7 +855,8 @@
     <MESSAGE value="fixed name not present issue" />
     <MESSAGE value="RSET mlist v1" />
     <MESSAGE value="RSET mlist with csv v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="RSET mlist with csv v1.1" />
+    <MESSAGE value="rsetpass" />
+    <option name="LAST_COMMIT_MESSAGE" value="rsetpass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1229,8 +1232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RSMS-profile/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53797466" vertical-offset="0" max-vertical-offset="969">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="969">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="e#84#100#0" expanded="true" />
             <element signature="e#861#992#0" expanded="true" />
