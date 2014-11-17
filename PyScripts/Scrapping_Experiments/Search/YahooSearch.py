@@ -7,6 +7,7 @@ __version__ = '1.0.0'
 import mechanize
 from BeautifulSoup import BeautifulSoup
 import re
+import urllib2
 import HTMLParser
 
 
@@ -35,7 +36,11 @@ def getlinks(keyword, num):
 	for a in bs:
 		item = str(BeautifulSoup(str(a)).find('h3'))
 		heading = HTMLParser.HTMLParser().unescape(re.findall(h3re, item)[0].replace('<b>', '').replace('</b>', ''))
-		results.append([heading, re.findall(linkre, item)[0]])
+		turl = str(re.findall(linkre, item)[0]).split('/')
+		for part in turl:
+			if part.startswith('RU='):
+				url = urllib2.unquote(str(part).split('=')[1])
+		results.append([heading, url])
 	return results
 
 
