@@ -3,13 +3,12 @@
 Youtube downloader. Download separate videos, entire playlist, audio etc
 """
 __author__ = "T90"
-__credits__ = ["Jayarajan J N", "T90"]
+__credits__ = "Jayarajan J N"
 __version__ = "1.1.0"
-__status__ = "Pre-Release"
+__status__ = "Beta"
 
 import argparse
 import os
-
 import pafy
 
 
@@ -29,7 +28,6 @@ def downloadvideo(url, ptype='mp4', audio=False, silent=False):
 	print "\nDownloading : " + video.title
 	best.download(quiet=silent, filepath="videos")
 	msg = "Completed : " + video.title + "\n"
-	logger(msg)
 	print msg
 
 
@@ -52,7 +50,6 @@ def playlist(url, start, end, ptype='mp4', silent=False, audio=False):
 			print "\nDownloading : " + video.title
 			best.download(quiet=silent, filepath="playlists/")
 			msg = "Completed : " + video.title + "\n"
-			logger(msg)
 			print msg
 		except:
 			msg = "Error, skipping : " + video.title
