@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="ttt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/list.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/start.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/yt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/ticTacToe.py" afterPath="$PROJECT_DIR$/Others/ticTacToe.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MOVED" beforePath="E:\My Documents\GitHub\Test_Projects\PyScripts\RSMS-profile\pfile.txt" afterPath="$PROJECT_DIR$/HK/pfile.txt" />
     </list>
@@ -131,8 +126,8 @@
       <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Others/autoyt/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6071428" vertical-offset="0" max-vertical-offset="1105">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.4642857" vertical-offset="0" max-vertical-offset="1105">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#92#421#0" expanded="true" />
                 <element signature="e#444#513#0" expanded="true" />
@@ -144,7 +139,7 @@
       <file leaf-file-name="log.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Others/autoyt/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -340,38 +335,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SHC_reborn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Others" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Others" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoyt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -900,7 +863,11 @@
       <created>1416315622562</created>
       <updated>1416315622562</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="autodn_b1">
+      <created>1416326606444</created>
+      <updated>1416326606444</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -937,7 +904,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5009836" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32348993" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32348993" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -965,7 +932,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <MESSAGE value="Wiki_v1" />
     <MESSAGE value="Euler_25" />
     <MESSAGE value="cmdtest" />
     <MESSAGE value="pSHC_dev" />
@@ -990,7 +956,8 @@
     <MESSAGE value="ttt" />
     <MESSAGE value="ColourGame" />
     <MESSAGE value="yt" />
-    <option name="LAST_COMMIT_MESSAGE" value="yt" />
+    <MESSAGE value="autodn_b1" />
+    <option name="LAST_COMMIT_MESSAGE" value="autodn_b1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1322,10 +1289,10 @@
         <state vertical-scroll-proportion="0.42857143" vertical-offset="935" max-vertical-offset="1615">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
-            <element signature="e#195#210#0" expanded="true" />
-            <element signature="e#254#322#0" expanded="true" />
-            <element signature="e#390#640#0" expanded="true" />
-            <element signature="e#715#1257#0" expanded="true" />
+            <element signature="e#195#210#0" expanded="false" />
+            <element signature="e#254#322#0" expanded="false" />
+            <element signature="e#390#640#0" expanded="false" />
+            <element signature="e#715#1257#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1353,11 +1320,9 @@
         <state vertical-scroll-proportion="0.21428572" vertical-offset="204" max-vertical-offset="1258">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#22#88#1" expanded="true" />
-            <element signature="e#183#194#0" expanded="true" />
-            <element signature="e#247#316#0" expanded="true" />
-            <element signature="e#387#706#0" expanded="true" />
-            <element signature="e#791#1394#0" expanded="true" />
+            <element signature="e#22#88#1" expanded="false" />
+            <element signature="e#183#194#0" expanded="false" />
+            <element signature="e#247#316#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1394,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6071428" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.4642857" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#92#421#0" expanded="true" />
             <element signature="e#444#513#0" expanded="true" />
