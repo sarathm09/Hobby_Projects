@@ -1,7 +1,7 @@
+from Scrapping_Experiments import getdata
+
 __author__ = 'T90'
 __version__ = '1.0.0'
-
-import getdata
 
 if __name__ == '__main__':
 	starturl = "http://csebeta.x10.mx"

@@ -1,8 +1,10 @@
+from Others.autoyt import fileDownloader
+
 __author__ = 'T90'
 __version__ = '1.0.0'
 
 from datetime import datetime as dt
-import fileDownloader, argparse, os
+import argparse, os
 
 def logger(data):
     f = open("log.txt", "a")

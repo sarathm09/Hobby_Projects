@@ -1,10 +1,9 @@
+from Scrapping_Experiments.Search import YahooSearch as yahoo, GoogleSearch, BingSearch
+
 __author__ = 'T90'
 __version__ = '1.0.0'
 
 from threading import Thread
-import GoogleSearch as goog
-import YahooSearch as yahoo
-import BingSearch as bing
 
 if __name__ == '__main__':
 	"""
