@@ -10,16 +10,14 @@ def logger(data):
     f.write("\n")
     f.close()
 
-def downloadfile(url, resume = '', uname = '', passw = '', path = "downloads/files"):
+def downloadfile(url, resume = '', uname = '', passw = '', path = "downloads/files/"):
+    path += url.split('/')[-1]
     if uname == '':
         downloader = fileDownloader.DownloadFile(url, path)
     else:
         downloader = fileDownloader.DownloadFile(url, path,  (uname, passw))
     try:
-        if resume != '':
-            downloader.resume()
-        else:
-            downloader.download()
+        downloader.download()
         logger("Completed : " + url)
     except:
         print 'Error Downloading ' + url
@@ -33,12 +31,12 @@ def main():
     parser.add_argument('-p', help='Password, if required')
     parser.add_argument('-path', help='Path to which file is to be downloaded')
     args = parser.parse_args()
-
     if not os.path.exists('downloads/files'):
         os.mkdir('downloads/files')
-
     if args.r:
         res = "resume"
+    else:
+        res = ""
     if args.u:
         downloadfile(args.url, resume=res, uname=args.u, passw=args.p)
     else:

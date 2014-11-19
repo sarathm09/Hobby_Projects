@@ -6,10 +6,10 @@ import os, sys, time
 def update_new_files():
     global links, num_files, filename
     # get file contents
-    nlist = filter(lambda x: x != '', open(filename, 'r').read().split('\n'))
+    nlist = filter(lambda x: x != '' and x[0] != '#', open(filename, 'r').read().split('\n'))
     # check and update if there are new contents
     if len(nlist) > num_files:
-        for i in xrange(num_files, len(nlist) + 1):
+        for i in xrange(num_files, len(nlist)):
             links.append(nlist[i])
             num_files += 1
 
@@ -18,7 +18,7 @@ def start(type, url, playlist=''):
     if type == 'youtube':
         os.system(silentword + 'python yt.py ' + playlist + url)
     elif type == 'file':
-        os.system(silentword + 'python fd.py ' + url)
+        os.system('start python fd.py ' + url)
 
 if __name__ == '__main__':
     """
@@ -28,9 +28,8 @@ if __name__ == '__main__':
     be automatically added to the queue.
     """
     filename = 'list.txt'
-    # read file and ignore empty lines
-    links = filter(lambda x: x != '', open(filename, 'r').read().split('\n'))
-    parallel, num_files, silentword = 5, len(links), ''
+    parallel, num_files, silentword, links = 5, 0, '', []
+    update_new_files()
     # if there is any extra argument, make the download silent
     if len(sys.argv) == 2:
         silentword = ''
@@ -55,7 +54,7 @@ if __name__ == '__main__':
             active = int(open('active.txt', 'r').read())
             url = str(links[0])
             links.remove(url)
-            print 'alloted : ' + url + ', remaining : ' + str(len(links)-1)
+            print 'alloted : ' + url + ', remaining : ' + str(len(links))
             active += 1
             open('active.txt','w').write(str(active))
             if 'youtube.com/' in url:
