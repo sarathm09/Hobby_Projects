@@ -5,12 +5,9 @@ Youtube downloader. Download separate videos, entire playlist, audio etc
 __author__ = "T90"
 __credits__ = "Jayarajan J N"
 __version__ = "1.1.0"
-__status__ = "Beta"
 
 from datetime import datetime as dt
-import argparse
-import os
-import pafy
+import argparse, os,  pafy
 
 
 def logger(data):
@@ -71,8 +68,7 @@ def main():
     parser.add_argument('-a', action='store_true', help="download audio only")
     parser.add_argument("url", help='url of the playlist')
     arguments = parser.parse_args()
-    if not os.path.exists("downloads"):
-        os.mkdir('downloads')
+    if not os.path.exists("downloads/videos"):
         os.mkdir("downloads/videos")
         os.mkdir("downloads/playlists")
     if arguments.p:

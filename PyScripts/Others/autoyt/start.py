@@ -13,16 +13,19 @@ def update_new_files():
             links.append(nlist[i])
             num_files += 1
 
-def start(u, a):
+def start(type, url, playlist=''):
     global silentword
-    os.system(silentword + 'python yt.py ' + a + u)
+    if type == 'youtube':
+        os.system(silentword + 'python yt.py ' + playlist + url)
+    elif type == 'file':
+        os.system(silentword + 'python fd.py ' + url)
 
 if __name__ == '__main__':
     """
-    Program to get youtube links from a file 'filename' and dowmload them in separate windows (to disable
+    Program to get download links from a file 'filename' and dowmload them in separate windows (to disable
     separate windows, run this program as 'python start.py silent', with 'parallel' number of windows at a
-    time. The file 'filename' can be updated any time with new links for videos or playlists, they'll be
-    automatically added to the queue.
+    time. The file 'filename' can be updated any time with new links for files, videos or playlists, they'll
+    be automatically added to the queue.
     """
     filename = 'list.txt'
     # read file and ignore empty lines
@@ -39,6 +42,9 @@ if __name__ == '__main__':
     else:
         open('active.txt', 'w').write('0')
         active = 0
+    # make the downloads folder
+    if not os.path.exists('downloads/'):
+        os.mkdir('downloads')
     # the main loop
     while len(links) > 0:
         active = int(open('active.txt', 'r').read())
@@ -52,9 +58,12 @@ if __name__ == '__main__':
             print 'alloted : ' + url + ', remaining : ' + str(len(links)-1)
             active += 1
             open('active.txt','w').write(str(active))
-            if len(url) > 0:
-                if 'watch?v' in url:
-                    start(url, '')
-                elif 'playlist?list' in url:
-                    start(url, '-p ')
+            if 'youtube.com/' in url:
+                if len(url) > 0:
+                    if 'watch?v' in url:
+                        start('youtube', url)
+                    elif 'playlist?list' in url:
+                        start('youtube', url, '-p ')
+            else:
+                start('file', url)
         time.sleep(10)
