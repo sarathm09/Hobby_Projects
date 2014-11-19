@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/fd.py" afterPath="$PROJECT_DIR$/Others/autoyt/fd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/list.txt" afterPath="$PROJECT_DIR$/Others/autoyt/list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/start.py" afterPath="$PROJECT_DIR$/Others/autoyt/start.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyScripts.iws" />
@@ -62,6 +60,7 @@
     <SUITE FILE_PATH="coverage/PyScripts$29_distinct_prime.coverage" NAME="29_distinct_prime Coverage Results" MODIFIED="1415035308501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
     <SUITE FILE_PATH="coverage/PyScripts$l5.coverage" NAME="l5 Coverage Results" MODIFIED="1415537117936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyChallenges" />
     <SUITE FILE_PATH="coverage/PyScripts$32_pandigital.coverage" NAME="32_pandigital Coverage Results" MODIFIED="1415037150422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euler" />
+    <SUITE FILE_PATH="coverage/PyScripts$torr.coverage" NAME="torr Coverage Results" MODIFIED="1416422105177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
     <SUITE FILE_PATH="coverage/PyScripts$l4.coverage" NAME="l4 Coverage Results" MODIFIED="1415529967892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyChallenges" />
     <SUITE FILE_PATH="coverage/PyScripts$yt.coverage" NAME="yt Coverage Results" MODIFIED="1416405467073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
     <SUITE FILE_PATH="coverage/PyScripts$youtube.coverage" NAME="youtube Coverage Results" MODIFIED="1416326222550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/15nov" />
@@ -167,7 +166,7 @@
       <file leaf-file-name="list.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Others/autoyt/list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67432153" vertical-offset="0" max-vertical-offset="479">
+            <state vertical-scroll-proportion="0.6757322" vertical-offset="0" max-vertical-offset="478">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
@@ -187,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/PyChallenges/l1.py" />
         <option value="$PROJECT_DIR$/PyChallenges/l2.py" />
         <option value="$PROJECT_DIR$/PyChallenges/l3.py" />
         <option value="$PROJECT_DIR$/PyChallenges/l4.py" />
@@ -238,6 +236,7 @@
         <option value="$PROJECT_DIR$/Others/autoyt/active.txt" />
         <option value="$PROJECT_DIR$/Others/autoyt/log.txt" />
         <option value="$PROJECT_DIR$/Others/autoyt/list.txt" />
+        <option value="$PROJECT_DIR$/Others/autoyt/torr.py" />
       </list>
     </option>
   </component>
@@ -414,7 +413,7 @@
       <recent name="E:\My Documents\GitHub\Test_Projects\PyScripts\SHC_reborn\bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start">
+  <component name="RunManager" selected="Python.torr">
     <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,25 +432,6 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="youtube" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/15nov" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyScripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/15nov/youtube.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -507,6 +487,25 @@
       <module name="PyScripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/yt.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="torr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyScripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/torr.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -664,18 +663,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.start" />
-      <item index="1" class="java.lang.String" itemvalue="Python.youtube" />
-      <item index="2" class="java.lang.String" itemvalue="Python.RSMSfw" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fd" />
-      <item index="4" class="java.lang.String" itemvalue="Python.yt" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RSMSfw" />
+      <item index="2" class="java.lang.String" itemvalue="Python.fd" />
+      <item index="3" class="java.lang.String" itemvalue="Python.yt" />
+      <item index="4" class="java.lang.String" itemvalue="Python.torr" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.start" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fd" />
-        <item index="2" class="java.lang.String" itemvalue="Python.yt" />
-        <item index="3" class="java.lang.String" itemvalue="Python.RSMSfw" />
-        <item index="4" class="java.lang.String" itemvalue="Python.youtube" />
+        <item index="0" class="java.lang.String" itemvalue="Python.torr" />
+        <item index="1" class="java.lang.String" itemvalue="Python.start" />
+        <item index="2" class="java.lang.String" itemvalue="Python.fd" />
+        <item index="3" class="java.lang.String" itemvalue="Python.yt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.RSMSfw" />
       </list>
     </recent_temporary>
   </component>
@@ -905,7 +904,11 @@
       <created>1416407716720</created>
       <updated>1416407716720</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="autodn v1">
+      <created>1416420317380</created>
+      <updated>1416420317380</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -930,8 +933,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248322" sideWeight="0.4990164" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -941,13 +945,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5009836" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32037532" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32080537" sideWeight="0.4990164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -970,7 +973,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <MESSAGE value="pSHC_dev" />
     <MESSAGE value="l8" />
     <MESSAGE value="d_link" />
     <MESSAGE value="goog_search" />
@@ -995,19 +997,13 @@
     <MESSAGE value="yt" />
     <MESSAGE value="autofd v1" />
     <MESSAGE value="rsmsfw beta" />
-    <option name="LAST_COMMIT_MESSAGE" value="rsmsfw beta" />
+    <MESSAGE value="autodn v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="autodn v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Euler/15_lattice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11854951" vertical-offset="0" max-vertical-offset="717">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyChallenges/l1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37037036" vertical-offset="0" max-vertical-offset="459">
@@ -1368,7 +1364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67432153" vertical-offset="0" max-vertical-offset="479">
+        <state vertical-scroll-proportion="0.6757322" vertical-offset="0" max-vertical-offset="478">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
