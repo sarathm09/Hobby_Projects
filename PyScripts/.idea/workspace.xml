@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed664b6-6699-410d-aa00-749fdf0dc843" name="Default" comment="ttt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/fd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/fileDownloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HK/RSMSfw.py" afterPath="$PROJECT_DIR$/HK/RSMSfw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/start.py" afterPath="$PROJECT_DIR$/Others/autoyt/start.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/yt.py" afterPath="$PROJECT_DIR$/Others/autoyt/yt.py" />
     </list>
     <ignored path="PyScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -898,7 +894,11 @@
       <created>1416406779936</created>
       <updated>1416406779936</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="autofd v1">
+      <created>1416407699618</created>
+      <updated>1416407699618</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -963,7 +963,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <MESSAGE value="Euler_25" />
     <MESSAGE value="cmdtest" />
     <MESSAGE value="pSHC_dev" />
     <MESSAGE value="l8" />
@@ -988,7 +987,8 @@
     <MESSAGE value="ColourGame" />
     <MESSAGE value="autodn_b1" />
     <MESSAGE value="yt" />
-    <option name="LAST_COMMIT_MESSAGE" value="yt" />
+    <MESSAGE value="autofd v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="autofd v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
