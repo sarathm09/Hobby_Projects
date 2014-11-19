@@ -7,6 +7,7 @@ __credits__ = "Jayarajan J N"
 __version__ = "1.1.0"
 __status__ = "Beta"
 
+from datetime import datetime as dt
 import argparse
 import os
 import pafy
@@ -14,7 +15,7 @@ import pafy
 
 def logger(data):
     f = open("log.txt", "a")
-    f.write(data)
+    f.write(str(dt.now()) + " : " + data)
     f.write("\n")
     f.close()
 
@@ -27,10 +28,10 @@ def downloadvideo(url, ptype='mp4', audio=False, silent=False):
         best = video.getbest(preftype=ptype)
     print "\nDownloading : " + video.title
     try:
-        best.download(quiet=silent, filepath="videos")
-        msg = "Completed : " + video.title + "\n"
+        best.download(quiet=silent, filepath="downloads/videos/")
+        msg = "v@ Completed : " + video.title + url
     except:
-        msg = "Failed : " + video.title + "\n"
+        msg = "v@ Failed : " + video.title +  url
     logger(msg)
     active = int(open('active.txt', 'r').read())
     open('active.txt', 'w').write(str(active - 1))
@@ -52,10 +53,10 @@ def playlist(url, start, end, ptype='mp4', silent=False, audio=False):
             else:
                 best = video.getbest(preftype=ptype)
             print "\nDownloading : " + video.title
-            best.download(quiet=silent, filepath="playlists/")
-            msg = "Completed : " + video.title + "\n"
+            best.download(quiet=silent, filepath="downloads/playlists/")
+            msg = "p@ Completed : " + video.title + url
         except:
-            msg = "Error, skipping : " + video.title
+            msg = "p@ Error, skipping : " + video.title + url
     print msg
     logger(msg)
     active = int(open('active.txt', 'r').read())
@@ -70,10 +71,10 @@ def main():
     parser.add_argument('-a', action='store_true', help="download audio only")
     parser.add_argument("url", help='url of the playlist')
     arguments = parser.parse_args()
-    if not os.path.exists("videos"):
-        os.mkdir("videos")
-    if not os.path.exists("playlists"):
-        os.mkdir("playlists")
+    if not os.path.exists("downloads"):
+        os.mkdir('downloads')
+        os.mkdir("downloads/videos")
+        os.mkdir("downloads/playlists")
     if arguments.p:
         playlist(arguments.url, arguments.start, arguments.end, audio=arguments.a)
     else:
