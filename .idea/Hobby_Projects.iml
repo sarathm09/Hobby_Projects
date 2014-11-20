@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MagPy" />
+    <orderEntry type="module" module-name="Local Files" />
   </component>
 </module>
 

@@ -1,34 +1,20 @@
 __author__ = 'T90'
 __version__ = '1.0.0'
 
-import sys
-from PySide.QtCore import *
 from PySide.QtGui import *
-from math import *
+import sys
 
-class form(QDialog):
-	def __init__(self, parent=None):
-		super(form, self).__init__(parent)
+class MyApp(QWidget):
+	def __init__(self):
+		super(MyApp, self).__init__()
 
-		self.browser = QTextBrowser()
-		self.linedit = QLineEdit("type nd enter")
-		self.linedit.selectAll()
-		layout = QVBoxLayout()
-		layout.addWidget(self.browser)
-		layout.addWidget(self.linedit)
-		self.setLayout(layout)
-		self.linedit.setFocus()
-		self.connect(self.linedit, SIGNAL("returnPressed()"), self.updateUi)
-		self.setWindowTitle("Calculator")
+		self.setGeometry(300,300,250, 150)
+		self.setWindowTitle("Hello!!! My second app")
+		self.setWindowIcon(QIcon('web.png'))
 
-	def updateUi(self):
-		try:
-			text = self.linedit.text()
-			self.browser.append("%s = <b>%s</b>" % (text, eval(text)))
-		except:
-			self.browser.append("<font color=red>INVALID</font>")
+		self.show()
 
-app = QApplication(sys.argv)
-f = form()
-f.show()
-app.exec_()
+if __name__ == '__main__':
+	app = QApplication(sys.argv)
+	a = MyApp()
+	app.exec_()
