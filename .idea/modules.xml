@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Hobby_Projects.iml" filepath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/Local Files/.idea/Local Files.iml" filepath="$USER_HOME$/PycharmProjects/Local Files/.idea/Local Files.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MagPy/.idea/MagPy.iml" filepath="$PROJECT_DIR$/../MagPy/.idea/MagPy.iml" />
     </modules>
   </component>
 </project>
