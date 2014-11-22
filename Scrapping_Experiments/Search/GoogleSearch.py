@@ -44,4 +44,5 @@ def display_results(keyword, num):
 
 
 if __name__ == '__main__':
-	display_results("Hello World", 1)
+	#display_results("Hello World", 1)
+	print getlinks("hello World", 1)

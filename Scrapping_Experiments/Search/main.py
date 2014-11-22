@@ -1,9 +1,24 @@
-from Scrapping_Experiments.Search import YahooSearch as yahoo, GoogleSearch, BingSearch
+from Queue import Queue
+from Scrapping_Experiments.Search import YahooSearch as yahoo, GoogleSearch as goog, BingSearch as bing
 
 __author__ = 'T90'
 __version__ = '1.0.0'
 
 from threading import Thread
+
+
+def getlinks(keyword, num):
+	queue = Queue()
+	gTH = Thread(target=goog.display_results, args=(keyword, num))
+	bTH = Thread(target=bing.display_results, args=(keyword, num))
+	yTH = Thread(target=yahoo.display_results, args=(keyword, num))
+	Th = [gTH, bTH, yTH]
+	for t in Th:
+		t.run()
+	for t in Th:
+		t.join()
+
+
 
 if __name__ == '__main__':
 	"""
@@ -28,3 +43,5 @@ if __name__ == '__main__':
 
 	for t in Th:
 		t.join()
+
+	getlinks("google",1)
