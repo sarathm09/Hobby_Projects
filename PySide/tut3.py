@@ -17,6 +17,10 @@ class form(QDialog):
 		self.label.setAlignment(Qt.AlignCenter)
 		self.label.setMaximumHeight(self.browser.height())
 		self.label.setFont('Helvetica')
+		self.label.setAutoFillBackground(True)
+		p = self.label.palette()
+		p.setColor(self.label.backgroundRole(), Qt.blue)
+		self.label.setPalette(p)
 		self.lablayout = QHBoxLayout()
 		self.linedit.textChanged.connect(self.updateUi)
 		self.linedit.selectAll()
@@ -33,14 +37,15 @@ class form(QDialog):
 	def updateUi(self):
 		text = str(self.linedit.text())
 		ops = ['+', '-', '*', '/', '%', '**', '//']
-		if text[-1] not in ops and len(text) > 1:
-			if text.count('(') == text.count(')'):
-				try:
-					self.browser.append("%s = <b>%s</b>" % (text, eval(text)))
-					htm = '<h1 style="width:100%; height:100%; background:#00f; color:#fff; font-size:700%">' + str(eval(text)) + '</h1>'
-					self.label.setText(unicode(htm))
-				except:
-					self.browser.append("<font color=red>INVALID</font>")
+		if len(text) > 0:
+			if text[-1] not in ops and len(text) > 1:
+				if text.count('(') == text.count(')'):
+					try:
+						self.browser.append("%s = <b>%s</b>" % (text, eval(text)))
+						htm = '<h1 style="color:#fff;" ><font size="6000">' + str(eval(text)) + '</font></h1>'
+						self.label.setText(unicode(htm))
+					except:
+						self.browser.append("<font color=red>INVALID</font>")
 
 
 
