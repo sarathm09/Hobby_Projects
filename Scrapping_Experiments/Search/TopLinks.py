@@ -18,6 +18,7 @@ class GUI(QWidget):
 
 	def showUI(self):
 		self.setWindowTitle('Google AutoComplete')
+		self.inp.setPlaceholderText("Enter your search here")
 		self.layout = QVBoxLayout()
 		self.layout.addWidget(self.res)
 		self.layout.addWidget(self.inp)
@@ -25,7 +26,6 @@ class GUI(QWidget):
 
 		self.inp.textChanged.connect(self.getData)
 		self.inp.returnPressed.connect(self.getData)
-		self.inp.editingFinished.connect(self.getData)
 		self.connect(self.th, SIGNAL("data(QString)"), self.updateUI)
 
 	def getData(self):
