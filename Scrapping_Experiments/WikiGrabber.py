@@ -1,14 +1,13 @@
-from PySide.QtCore import *
 from PySide.QtGui import *
-from threading import Thread
 import sys
+import mechanize
+
 
 class GUI(QWidget):
 	def __init__(self, parent=None):
 		super(GUI, self).__init__(parent)
 		self.res = QTextBrowser()
 		self.inp = QLineEdit()
-		self.th = Wiki()
 		self.showUI()
 
 	def showUI(self):
@@ -18,36 +17,20 @@ class GUI(QWidget):
 		self.layout.addWidget(self.res)
 		self.layout.addWidget(self.inp)
 		self.setLayout(self.layout)
-		self.inp.textChanged.connect(self.getData)
 		self.inp.returnPressed.connect(self.getData)
-		self.connect(self.th, SIGNAL("data(QString)"), self.updateUI,
-													Qt.DirectConnection)
+		self.setGeometry(100,100,1200,600)
+
 	def getData(self):
-		txt = self.inp.text()
-		if len(txt) > 0:
-			self.th.setKeyword(txt)
-			self.th.start()
-		else:
-			self.res.setText(txt)
-
-	def updateUI(self, d):
-		self.res.setText(d)
-
-class Wiki(QThread):
-	def __init__(self, parent=None):
-		super(Wiki, self).__init__(parent)
-		self.result = ""
-
-	def setKeyword(self, str):
-		self.keyword = str
-
-	def run(self):
+		self.keyword = self.inp.text()
+		chrome = mechanize.Browser()
+		chrome.set_handle_robots(False)
+		chrome.addheaders = [('User-agent',
+							  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36')]
 		self.result = ""
 		if len(self.keyword) >= 0:
 			base_url = 'http://en.wikipedia.org/w/index.php?go=Go&search='
 			search_url = base_url + self.keyword.replace(' ', '+')
-			result = str(chrome.open(search_url).read())
-		self.emit(SIGNAL("data(QString)"), self.result)
+			self.res.setText(str(chrome.open(search_url).read()))
 
 
 
