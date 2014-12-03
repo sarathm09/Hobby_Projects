@@ -13,11 +13,11 @@ def file(id, pass1):
 
 def getdata():
 	prev = 0
-	startpass = 3000
-	startid = 2001
+	startpass = 2000
+	startid = 3114
 	for i in xrange(startid, startid + 1):#00):
 		id = "U110" + str(i)
-		for j in xrange(startpass + prev, startpass + 1000):
+		for j in xrange(startpass, startpass + 1000):
 			browser = mechanize.Browser(factory=mechanize.RobustFactory())
 			browser.set_handle_robots(False)
 			r = browser.open("http://rajagiritech.ac.in/stud/parent/")
