@@ -45,7 +45,7 @@ if __name__ == '__main__':
     if not os.path.exists('downloads/'):
         os.mkdir('downloads')
 	#Start the auto file mover program
-	os.system('start movfile.py')
+	# os.system('start movfile.py')
     # the main loop
     while len(links) > 0:
         active = int(open('active.txt', 'r').read())
