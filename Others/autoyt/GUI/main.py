@@ -12,36 +12,42 @@ class MyApp(QWidget):
 		self.initUi()
 
 	def initUi(self):
-		QToolTip.setFont(QFont('SansSerif', 10))
-		self.setToolTip('hello, this is a tooltip')
+		self.setWindowTitle('YTdwm by T90')
+		self.mainlayout = QVBoxLayout()
+		self.textlayout = QHBoxLayout()
+		self.counterlayout = QHBoxLayout()
+		self.buttonlayoutmain = QHBoxLayout()
+		self.buttonlayoutsec = QHBoxLayout()
+		self.setLayout(self.mainlayout)
 
-		btn = QPushButton('Click to close', self)
-		btn.setToolTip('A Button ToolTip')
-		btn.setGeometry(50, 50, 100, 100)
-		btn.clicked.connect(QCoreApplication.instance().quit)
+		self.mainlayout.addLayout(self.counterlayout)
+		self.mainlayout.addLayout(self.textlayout)
+		self.mainlayout.addLayout(self.buttonlayoutmain)
+		self.mainlayout.addLayout(self.buttonlayoutsec)
 
-		self.setGeometry(300, 300, 250, 250)
-		self.setWindowTitle('tooltip Test')
-		self.center()
+		self.urlbox = QTextEdit()
+		self.logbox = QTextEdit()
+		self.urlbox.setReadOnly(False)
+		self.urlbox.setToolTip("Enter urls here")
+		self.logbox.setToolTip("The logs will appear here")
+		self.logbox.setReadOnly(True)
 
-		self.statusBar().showMessage('Ready')
+		self.downcounter = QLabel("Downloaded 0/0")
+		self.movecounter = QLabel("Moved 0/0")
+
+		self.startbtn = QPushButton("Start")
+		self.movebtn = QPushButton("Move")
+
+		self.textlayout.addWidget(self.urlbox)
+		self.textlayout.addWidget(self.logbox)
+
+		self.counterlayout.addWidget(self.downcounter)
+		self.counterlayout.addWidget(self.movecounter)
+
+		self.buttonlayoutmain.addWidget(self.startbtn)
+		self.buttonlayoutmain.addWidget(self.movebtn)
 
 		self.show()
-
-	def center(self):
-		qr = self.frameGeometry()
-		cp = QDesktopWidget().availableGeometry().center()
-		qr.moveCenter(cp)
-		self.move(qr.topLeft())
-
-	def closeEvent(self, event):
-		reply = QMessageBox.question(self, 'Sure to Quit?', 'Are you sure u wanna quit?', QMessageBox.Yes |
-									 QMessageBox.No, QMessageBox.No)
-		if reply == QMessageBox.No:
-			event.ignore()
-		else:
-			event.accept()
-
 
 if __name__ == '__main__':
 	app = QApplication(sys.argv)
