@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/gui.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/test/gui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/test/main.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/main.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/movepy.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/files/mstatus" />
@@ -780,7 +778,11 @@
       <created>1419337236233</created>
       <updated>1419337236233</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".">
+      <created>1419337267060</created>
+      <updated>1419337267060</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -820,6 +822,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>

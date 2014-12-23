@@ -30,7 +30,7 @@ def downloadvideo(url, ptype='mp4', audio=False, silent=True):
 		best = video.getbestaudio()
 	else:
 		best = video.getbest(preftype=ptype)
-		best.download(quiet=silent, filepath="downloads/videos/", callback=op)
+		best.download(quiet=silent, callback=op)
 		# try:
 	# best.download(quiet=silent, filepath="downloads/videos/", callBack=op)
 	#     msg = "v@ Completed : " + video.title + url
@@ -75,9 +75,6 @@ def main():
 	parser.add_argument('-a', action='store_true', help="download audio only")
 	parser.add_argument("url", help='url of the playlist')
 	arguments = parser.parse_args()
-	if not os.path.exists("downloads/videos"):
-		os.mkdir("downloads/videos")
-		os.mkdir("downloads/playlists")
 	if arguments.p:
 		playlist(arguments.url, arguments.start, arguments.end, audio=arguments.a)
 	else:
