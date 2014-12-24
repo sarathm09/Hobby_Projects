@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gui.ui'
 #
-# Created: Tue Dec 23 17:23:52 2014
+# Created: Wed Dec 24 13:53:37 2014
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -67,7 +67,6 @@ class Ui_DownloaderGUI(object):
         self.speed.setFrameShape(QtGui.QFrame.StyledPanel)
         self.speed.setFrameShadow(QtGui.QFrame.Sunken)
         self.speed.setSmallDecimalPoint(False)
-        self.speed.setNumDigits(7)
         self.speed.setDigitCount(7)
         self.speed.setSegmentStyle(QtGui.QLCDNumber.Filled)
         self.speed.setProperty("value", 0.0)
@@ -77,7 +76,7 @@ class Ui_DownloaderGUI(object):
         self.horizontalLayout_5.addWidget(self.widget)
         self.widget_2 = QtGui.QWidget(self.statusbox)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
-        sizePolicy.setHorizontalStretch(3)
+        sizePolicy.setHorizontalStretch(2)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.widget_2.sizePolicy().hasHeightForWidth())
         self.widget_2.setSizePolicy(sizePolicy)
@@ -150,7 +149,7 @@ class Ui_DownloaderGUI(object):
         self.logbox = QtGui.QTextEdit(self.io)
         font = QtGui.QFont()
         font.setFamily("Arial")
-        font.setPointSize(6)
+        font.setPointSize(8)
         font.setItalic(True)
         self.logbox.setFont(font)
         self.logbox.setProperty("cursor", QtCore.Qt.BusyCursor)
@@ -330,7 +329,7 @@ class Ui_DownloaderGUI(object):
     def retranslateUi(self, DownloaderGUI):
         DownloaderGUI.setWindowTitle(QtGui.QApplication.translate("DownloaderGUI", "Youtube Downloader | by T90", None, QtGui.QApplication.UnicodeUTF8))
         self.statusbox.setTitle(QtGui.QApplication.translate("DownloaderGUI", "Status", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_11.setText(QtGui.QApplication.translate("DownloaderGUI", "Total Speed", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_11.setText(QtGui.QApplication.translate("DownloaderGUI", "Total Speed (kbps)", None, QtGui.QApplication.UnicodeUTF8))
         self.label_7.setText(QtGui.QApplication.translate("DownloaderGUI", "Completed", None, QtGui.QApplication.UnicodeUTF8))
         self.label_8.setText(QtGui.QApplication.translate("DownloaderGUI", "Failed", None, QtGui.QApplication.UnicodeUTF8))
         self.label_9.setText(QtGui.QApplication.translate("DownloaderGUI", "Moved", None, QtGui.QApplication.UnicodeUTF8))
@@ -349,12 +348,13 @@ class Ui_DownloaderGUI(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\"># Enter urls here. </span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\"># Each url should be in a separate line.</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\"># Lines with \'#\' as beginning will be ignored.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><br /></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.logbox.setHtml(QtGui.QApplication.translate("DownloaderGUI", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Arial\'; font-size:6pt; font-weight:400; font-style:italic;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:normal;\">No Logs Yet</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"</style></head><body style=\" font-family:\'Arial\'; font-size:8pt; font-weight:400; font-style:italic;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:normal;\">No Logs Yet</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.buttons.setTitle(QtGui.QApplication.translate("DownloaderGUI", "Controls", None, QtGui.QApplication.UnicodeUTF8))
         self.downbtn.setText(QtGui.QApplication.translate("DownloaderGUI", "Download", None, QtGui.QApplication.UnicodeUTF8))
         self.movebtn.setText(QtGui.QApplication.translate("DownloaderGUI", "Move", None, QtGui.QApplication.UnicodeUTF8))

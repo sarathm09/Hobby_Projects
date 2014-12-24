@@ -1,10 +1,9 @@
-from time import sleep
-from PySide.QtCore import QThread
-
 __author__ = 'T90'
 __version__ = '1.0.0'
 
 from PySide.QtGui import QDialog, QApplication, QFileDialog, QMessageBox
+from time import sleep
+from PySide.QtCore import Signal
 from gui import Ui_DownloaderGUI
 from threading import Thread
 from sys import argv
@@ -12,54 +11,75 @@ from subprocess import Popen
 
 class MyApp(QDialog, Ui_DownloaderGUI):
 
+	UpdateSig = Signal()
+
 	def __init__(self):
 		super(MyApp, self).__init__()
 		self.setupUi(self)
 		self.setupfiles()
 		self.initui()
-		self.UpdateThread = Thread(target=self.updateUi)
-		self.UpdateThread.start()
 
 	def updateUi(self):
-		while True:
+		try:
 			self.mcom.setText(open("files/mstatus", "r").read())
-			self.mfail.setText(str(len(open("files/mfail", "r").read().split("\n"))))
-			p1d = open("files/p0").read().split("^")
-			p2d = open("files/p1").read().split("^")
-			p3d = open("files/p2").read().split("^")
-			p4d = open("files/p3").read().split("^")
-			p5d = open("files/p4").read().split("^")
-			# self.p1.setValue(int(p1d[1]))
-			# self.p2.setValue(int(p2d[1]))
-			# self.p3.setValue(int(p3d[1]))
-			# self.p4.setValue(int(p4d[1]))
-			# self.p5.setValue(int(p5d[1]))
-			self.p1l.setText(str(p1d[0]))
-			self.p2l.setText(str(p2d[0]))
-			self.p3l.setText(str(p3d[0]))
-			self.p4l.setText(str(p4d[0]))
-			self.p5l.setText(str(p5d[0]))
+			self.mfail.setText(str(len(open("files/mfail", "r").read().split("\n"))-1))
+			#Vid Name^tot^rat^eta^speed
+			pstatus = open("files/pstatus","r").read().split("\n")
+			n = 0
+			self.tot = 0.0
+			for stat in pstatus:
+				n += 1
+				if n>5:
+					break
+				details = stat.split("^")
+				if n==1 :
+					self.p1.setValue(float(details[2]) * 100)
+					self.p1l.setText(str(details[0]))
+					self.p1l.setToolTip(str(details[0]))
+					self.p1d.setText(str("size: " + str(float(details[1])/1024))[0:6] +
+									 ", eta " + str(float(details[3]/60))[0:4])
+				elif n == 2:
+					self.p2.setValue(float(details[2]) * 100)
+					self.p2l.setText(str(details[0]))
+					self.p2l.setToolTip(str(details[0]))
+					self.p2d.setText(str("size: " + str(float(details[1])/1024))[0:6] +
+										 ", eta " + str(float(details[3]/60))[0:4])
+				elif n == 3:
+					self.p3.setValue(float(details[2]) * 100)
+					self.p3l.setText(str(details[0]))
+					self.p3l.setToolTip(str(details[0]))
+					self.p3d.setText(str("size: " + str(float(details[1])/1024))[0:6] +
+										 ", eta " + str(float(details[3]/60))[0:4])
+				elif n == 4:
+					self.p4.setValue(float(details[2]) * 100)
+					self.p4l.setText(str(details[0]))
+					self.p4l.setToolTip(str(details[0]))
+					self.p4d.setText(str("size: " + str(float(details[1]) / 1024))[0:6] +
+										 ", eta " + str(float(details[3] / 60))[0:4])
+				elif n == 5:
+					self.p5.setValue(float(details[2]) * 100)
+					self.p5l.setText(str(details[0]))
+					self.p5l.setToolTip(str(details[0]))
+					self.p5d.setText(str("size: " + str(float(details[1])/1024))[0:6] +
+										 ", eta " + str(float(details[3]/60))[0:4])
 
-			self.p1d.setText(str(p1d[1]))
-			self.p2d.setText(str(p2d[1]))
-			self.p3d.setText(str(p3d[1]))
-			self.p4d.setText(str(p4d[1]))
-			self.p5d.setText(str(p5d[1]))
+				self.tot += float(details[4])
+			self.speed.display(self.tot)
+			self.logbox.setText(open("files/dstatus").read())
+		except:
+			pass
 
-			tot = int(p1d[1]) + int(p2d[1]) + int(p3d[1]) + int(p4d[1]) + int(p5d[1])
-			self.speed.display(tot)
+	def looper(self):
+		while True:
+			self.UpdateSig.emit()
 			sleep(1)
-
 
 	def setupfiles(self):
 		open("files/mstatus", "w").write("0/0")
-		open("files/mfail", "w")
+		open("files/mfail", "w").write("")
 		open("active.txt", "w").write("0")
-		open("files/p0", "w").write("0^0")
-		open("files/p1", "w").write("0^0")
-		open("files/p2", "w").write("0^0")
-		open("files/p3", "w").write("0^0")
-		open("files/p4", "w").write("0^0")
+		open("files/pstatus", "w").write("Not Allocated^0^0^0^0\n"*5)
+		open("files/dstatus", "w").write("\n"*5)
 
 
 	def initui(self):
@@ -68,22 +88,30 @@ class MyApp(QDialog, Ui_DownloaderGUI):
 		self.movebtn.clicked.connect(self.movefile)
 		self.session.clicked.connect(self.savesession)
 
+		self.urlbox.textChanged.connect(self.dwn)
+
 		#buttons in option page
 		self.dloc.clicked.connect(self.dlocclicked)
 		self.msrc.clicked.connect(self.msrcclicked)
 		self.mdest.clicked.connect(self.mdestclicked)
 
+
+		#GUI update Signal
+		self.UpdateSig.connect(self.updateUi)
+
+		#GUI update thread
+		self.UpdateThread = Thread(target=self.looper)
+		self.UpdateThread.setDaemon(True)
+		self.UpdateThread.start()
+
+
 	def dwn(self):
-		if self.downbtn.isChecked():
-			self.downbtn.setText("Stop Download")
-			self.isDownloading = True
-			open("files/bkp", "a").write(open("files/temp.txt").read())
-			open("files/temp.txt","w").write(self.urlbox.toPlainText())
+		open("files/bkp", "a").write(open("files/temp.txt").read())
+		open("files/temp.txt", "w").write(self.urlbox.toPlainText())
+		if not self.downbtn.isChecked():
+			self.downbtn.setText("Update Links")
 			Popen("python DownloadLoop.py " + self.dloc.text())
 
-		else:
-			self.downbtn.setText("Download")
-			self.isDownloading = False
 
 	def movefile(self):
 		if self.movebtn.isChecked():
