@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\active.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\fd.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\fileDownloader.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\list.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\log.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\movfile.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\pipe.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\start.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\test.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\p0" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\p1" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\p2" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\p3" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\p4" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\log.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\yt.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/gui.ui" afterPath="$PROJECT_DIR$/Others/autoyt/v2/gui.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py" afterPath="$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/Mover.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/autoyt/v2/playlist.py" />
+      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\files\dstatus" afterPath="" />
+      <change type="DELETED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\movepy.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/active.txt" afterPath="$PROJECT_DIR$/Others/autoyt/v2/active.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/files/bkp" afterPath="$PROJECT_DIR$/Others/autoyt/v2/files/bkp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/gui.py" afterPath="$PROJECT_DIR$/Others/autoyt/v2/gui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/files/pstatus" afterPath="$PROJECT_DIR$/Others/autoyt/v2/files/pstatus" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt" afterPath="$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/autoyt/v2/yt.py" afterPath="$PROJECT_DIR$/Others/autoyt/v2/yt.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\DownloadLoop.py" afterPath="$PROJECT_DIR$/Others/autoyt/v2/Downloader.py" />
       <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\main.py" afterPath="$PROJECT_DIR$/Others/autoyt/v2/Main.py" />
     </list>
     <ignored path="Test_Projects.iws" />
@@ -46,15 +37,18 @@
     <SUITE FILE_PATH="coverage/Test_Projects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1419314443995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
     <SUITE FILE_PATH="coverage/Test_Projects$GoogleSearch.coverage" NAME="GoogleSearch Coverage Results" MODIFIED="1416684202944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/Test_Projects$tut3.coverage" NAME="tut3 Coverage Results" MODIFIED="1416684995945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1419409265990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$photos.coverage" NAME="photos Coverage Results" MODIFIED="1417844249827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
+    <SUITE FILE_PATH="coverage/Test_Projects$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1419409265990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$WikiGrabber.coverage" NAME="WikiGrabber Coverage Results" MODIFIED="1417260931455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
     <SUITE FILE_PATH="coverage/Test_Projects$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1416459115772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$yt.coverage" NAME="yt Coverage Results" MODIFIED="1419322352366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Test_Projects$playlist.coverage" NAME="playlist Coverage Results" MODIFIED="1419776829894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$3.coverage" NAME="3 Coverage Results" MODIFIED="1416472188817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1417845362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Test_Projects$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1419360163708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Test_Projects$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1417845362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Test_Projects$eg.coverage" NAME="eg Coverage Results" MODIFIED="1419265525006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
+    <SUITE FILE_PATH="coverage/Test_Projects$Downloader.coverage" NAME="Downloader Coverage Results" MODIFIED="1419784131129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Test_Projects$Main.coverage" NAME="Main Coverage Results" MODIFIED="1419785528324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$GoogleSuggestions.coverage" NAME="GoogleSuggestions Coverage Results" MODIFIED="1416683285586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -68,7 +62,104 @@
     <favorites_list name="Test_Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Downloader.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Downloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.8832599" vertical-offset="2215" max-vertical-offset="2720">
+              <caret line="80" column="67" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
+              <folding>
+                <element signature="e#42#53#0" expanded="true" />
+                <element signature="e#289#362#0" expanded="true" />
+                <element signature="e#400#642#0" expanded="true" />
+                <element signature="e#677#1275#0" expanded="true" />
+                <element signature="e#1313#2169#0" expanded="true" />
+                <element signature="e#2763#3068#0" expanded="true" />
+                <element signature="e#3095#3114#0" expanded="true" />
+                <element signature="e#3140#4819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="2652">
+              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+              <folding>
+                <element signature="e#42#64#0" expanded="true" />
+                <element signature="e#372#458#0" expanded="true" />
+                <element signature="e#2303#2351#0" expanded="true" />
+                <element signature="e#2378#2602#0" expanded="true" />
+                <element signature="e#2625#3193#0" expanded="true" />
+                <element signature="e#3213#3426#0" expanded="true" />
+                <element signature="e#3452#3587#0" expanded="true" />
+                <element signature="e#3615#3690#0" expanded="true" />
+                <element signature="e#3718#3807#0" expanded="true" />
+                <element signature="e#3835#3924#0" expanded="true" />
+                <element signature="e#3953#4044#0" expanded="true" />
+                <element signature="e#4079#4229#0" expanded="true" />
+                <element signature="e#4247#4297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mover.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Mover.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#42#65#0" expanded="true" />
+                <element signature="e#165#844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pstatus" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/pstatus">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dstatus" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/dstatus">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="187">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playlist.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/playlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -126,9 +217,14 @@
         <option value="$PROJECT_DIR$/Others/autoyt/v2/movepy.py" />
         <option value="$PROJECT_DIR$/Others/autoyt/v2/files/active.txt" />
         <option value="$PROJECT_DIR$/Others/autoyt/v2/main.py" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/playlist.py" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/MovePy.py" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/Mover.py" />
         <option value="$PROJECT_DIR$/Others/autoyt/v2/files/pstatus" />
         <option value="$PROJECT_DIR$/Others/autoyt/v2/Main.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py" />
+        <option value="$PROJECT_DIR$/Others/autoyt/v2/Downloader.py" />
       </list>
     </option>
   </component>
@@ -164,7 +260,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,9 +369,36 @@
               <option name="myItemId" value="autoyt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hobby_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Others" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoyt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,48 +429,8 @@
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
-    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt/GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/GUI/main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pipe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/pipe.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration default="false" name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -361,15 +443,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2\Main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/Main.py" />
+      <option name="PARAMETERS" value="downloads/" />
       <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="yt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -382,13 +462,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/yt.py" />
-      <option name="PARAMETERS" value="https://www.youtube.com/watch?v=YxyX4u9KN8Q" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/Downloader.py" />
+      <option name="PARAMETERS" value="downloads/" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="playlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -401,7 +481,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/playlist.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -491,9 +571,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,6 +592,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -557,20 +637,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pipe" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.yt" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (3)" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Downloader" />
+      <item index="2" class="java.lang.String" itemvalue="Python.playlist" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pipe" />
-        <item index="3" class="java.lang.String" itemvalue="Python.yt" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main (1)" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Downloader" />
+        <item index="2" class="java.lang.String" itemvalue="Python.playlist" />
       </list>
     </recent_temporary>
   </component>
@@ -680,20 +756,20 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18766066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19023137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3181208" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3163539" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3163539" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -747,17 +823,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#114#0" expanded="true" />
-            <element signature="e#371#457#0" expanded="true" />
-            <element signature="e#2346#2394#0" expanded="true" />
-            <element signature="e#2421#2641#0" expanded="true" />
-            <element signature="e#3253#3505#0" expanded="true" />
-            <element signature="e#3531#3778#0" expanded="true" />
-            <element signature="e#3806#3881#0" expanded="true" />
-            <element signature="e#3909#3998#0" expanded="true" />
-            <element signature="e#4026#4115#0" expanded="true" />
-            <element signature="e#4144#4235#0" expanded="true" />
-            <element signature="e#4270#4420#0" expanded="true" />
+            <element signature="e#42#64#0" expanded="true" />
+            <element signature="e#372#458#0" expanded="true" />
+            <element signature="e#2303#2351#0" expanded="true" />
+            <element signature="e#2378#2602#0" expanded="true" />
+            <element signature="e#2625#3193#0" expanded="true" />
+            <element signature="e#3213#3426#0" expanded="true" />
+            <element signature="e#3452#3587#0" expanded="true" />
+            <element signature="e#3615#3690#0" expanded="true" />
+            <element signature="e#3718#3807#0" expanded="true" />
+            <element signature="e#3835#3924#0" expanded="true" />
+            <element signature="e#3953#4044#0" expanded="true" />
+            <element signature="e#4079#4229#0" expanded="true" />
+            <element signature="e#4247#4297#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,33 +952,33 @@
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/CseBeta/data/fin.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3690304" vertical-offset="0" max-vertical-offset="1122">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RSMS-profile/p.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/p.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024602026" vertical-offset="51" max-vertical-offset="2125">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/fin.csv">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HK/fin.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="0" column="57" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HK/getpass_brute.py">
@@ -1011,20 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/active.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="481">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="481">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/mstatus">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
@@ -1047,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/pstatus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10580913" vertical-offset="0" max-vertical-offset="482">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/youtube_downloader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4273859" vertical-offset="15" max-vertical-offset="1037">
@@ -1068,43 +1125,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/dstatus">
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/active.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17634855" vertical-offset="0" max-vertical-offset="482">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py">
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/playlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.753112" vertical-offset="62" max-vertical-offset="1904">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/dstatus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="187">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Mover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <element signature="e#42#62#0" expanded="true" />
-            <element signature="e#192#252#0" expanded="true" />
-            <element signature="e#831#1306#0" expanded="true" />
-            <element signature="e#1334#1639#0" expanded="true" />
-            <element signature="e#1665#1684#0" expanded="true" />
+            <element signature="e#42#65#0" expanded="true" />
+            <element signature="e#165#844#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/pstatus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.126556" vertical-offset="545" max-vertical-offset="2346">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="2652">
+          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
           <folding>
-            <element signature="e#42#114#0" expanded="true" />
-            <element signature="e#371#457#0" expanded="true" />
-            <element signature="e#2346#2394#0" expanded="true" />
-            <element signature="e#2421#2641#0" expanded="true" />
-            <element signature="e#3253#3505#0" expanded="true" />
-            <element signature="e#3531#3778#0" expanded="true" />
-            <element signature="e#3806#3881#0" expanded="true" />
-            <element signature="e#3909#3998#0" expanded="true" />
-            <element signature="e#4026#4115#0" expanded="true" />
-            <element signature="e#4144#4235#0" expanded="true" />
-            <element signature="e#4270#4420#0" expanded="true" />
+            <element signature="e#42#64#0" expanded="true" />
+            <element signature="e#372#458#0" expanded="true" />
+            <element signature="e#2303#2351#0" expanded="true" />
+            <element signature="e#2378#2602#0" expanded="true" />
+            <element signature="e#2625#3193#0" expanded="true" />
+            <element signature="e#3213#3426#0" expanded="true" />
+            <element signature="e#3452#3587#0" expanded="true" />
+            <element signature="e#3615#3690#0" expanded="true" />
+            <element signature="e#3718#3807#0" expanded="true" />
+            <element signature="e#3835#3924#0" expanded="true" />
+            <element signature="e#3953#4044#0" expanded="true" />
+            <element signature="e#4079#4229#0" expanded="true" />
+            <element signature="e#4247#4297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8832599" vertical-offset="2215" max-vertical-offset="2720">
+          <caret line="80" column="67" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
+          <folding>
+            <element signature="e#42#53#0" expanded="true" />
+            <element signature="e#289#362#0" expanded="true" />
+            <element signature="e#400#642#0" expanded="true" />
+            <element signature="e#677#1275#0" expanded="true" />
+            <element signature="e#1313#2169#0" expanded="true" />
+            <element signature="e#2763#3068#0" expanded="true" />
+            <element signature="e#3095#3114#0" expanded="true" />
+            <element signature="e#3140#4819#0" expanded="true" />
           </folding>
         </state>
       </provider>

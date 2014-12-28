@@ -1044,4 +1044,234 @@ https://www.youtube.com/watch?v=l_BoL5ZWIoo
 https://www.youtube.com/watch?v=1y6uQqzhUEM
 https://www.youtube.com/watch?v=CipkI6bL8_Q
 https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+https://www.youtube.com/watch?v=kPwWUDT_pag
+https://www.youtube.com/watch?v=whtX7Kwps7A
+https://www.youtube.com/watch?v=l_BoL5ZWIoo
+https://www.youtube.com/watch?v=1y6uQqzhUEM
+https://www.youtube.com/watch?v=CipkI6bL8_Q
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
 https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+self.path + "/playlists/" + self.dirname# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+	path = list(name)
+	path[0] = path[0].upper()
+	for i in xrange(len(name)-1):
+		if not name[i].isalnum():
+			path[i + 1] = name[i + 1].upper()
+		else:
+			path[i + 1] = name[i + 1].lower()
+	return "".join(x for x in path if x.isalnum())# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+self.dproc = Process(target=Downloader.downloader, args=(self.dloc.text(),))# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS
+# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS
+# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+Popen("python Downloader.py " + self.dloc.text())# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS
+# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+
+https://www.youtube.com/watch?v=_RClPNISWuQ
+https://www.youtube.com/watch?v=-Vb6toBr6dk
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS# Enter urls here. 
+# Each url should be in a separate line.
+# Lines with '#' as beginning will be ignored.
+
+https://www.youtube.com/playlist?list=PLAomEJmGfjBFMDgBjYcUugvtL43AhgnLS

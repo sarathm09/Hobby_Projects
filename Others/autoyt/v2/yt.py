@@ -8,7 +8,6 @@ __version__ = "1.1.0"
 
 from datetime import datetime as dt
 import argparse
-import os
 
 import pafy
 
@@ -31,9 +30,9 @@ def downloadvideo(url, ptype='mp4', audio=False, silent=True):
 	else:
 		best = video.getbest(preftype=ptype)
 		best.download(quiet=silent, callback=op)
-		# try:
+	# try:
 	# best.download(quiet=silent, filepath="downloads/videos/", callBack=op)
-	#     msg = "v@ Completed : " + video.title + url
+	# msg = "v@ Completed : " + video.title + url
 	# except:
 	#     msg = "v@ Failed : " + video.title +  url
 	# logger(msg)
