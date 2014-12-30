@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Local Files" />
     <orderEntry type="module" module-name="MagPy" />
+    <orderEntry type="module" module-name="SHC" />
   </component>
 </module>
 
