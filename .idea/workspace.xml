@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/TKinter/1..py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/States.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/StatesExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/Kivy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/Kivy/basicapp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\1.py" afterPath="$PROJECT_DIR$/GUI/PySide/1.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\2.py" afterPath="$PROJECT_DIR$/GUI/PySide/2.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\3.py" afterPath="$PROJECT_DIR$/GUI/PySide/3.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\4.py" afterPath="$PROJECT_DIR$/GUI/PySide/4.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\Paint.py" afterPath="$PROJECT_DIR$/GUI/PySide/Paint.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut2.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut2.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut3.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut3.py" />
-      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut4.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut4.py" />
     </list>
     <ignored path="Test_Projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -607,7 +592,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420738750077</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="gui">
+      <created>1420738767525</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1420738767525</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -670,7 +661,8 @@
     <MESSAGE value="v2" />
     <MESSAGE value="pm" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
