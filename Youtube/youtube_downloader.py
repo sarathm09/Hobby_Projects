@@ -2,21 +2,8 @@
 """
 Youtube downloader. Download separate videos, entire playlist, audio etc
 """
-__author__ = "T90"
-__credits__ = "Jayarajan J N"
-__version__ = "1.1.0"
-__status__ = "Beta"
 
-import argparse
-import os
-import pafy
-
-
-def logger(data):
-	f = open("errors.txt", "a")
-	f.write(data)
-	f.write("\n")
-	f.close()
+import pafy, os
 
 
 def downloadvideo(url, ptype='mp4', audio=False, silent=False):
@@ -54,39 +41,28 @@ def playlist(url, start, end, ptype='mp4', silent=False, audio=False):
 		except:
 			msg = "Error, skipping : " + video.title
 			print msg
-			logger(msg)
 
 
 def main():
-	parser = argparse.ArgumentParser()
-	parser.add_argument('-p', action='store_true', help='given url is a playlist')
-	parser.add_argument('--s', type=int, help='download from given index in playlist')
-	parser.add_argument('--e', type=int, help='download till given index in playlist')
-	parser.add_argument('-a', action='store_true', help="download audio only")
-	parser.add_argument("-u", help='url of the playlist')
-	parser.add_argument("-f", help='url of the file')
-	arguments = parser.parse_args()
+	print "Simple Youtube Downloader | by T90\n"
+	url = raw_input("Enter url of the file : ")
+	start, end = 0, 0
+	if 'youtube.com/playlist' in url:
+		if 'n' in raw_input("It seems the url is a playlist. Enter y to download full playlist and n if you want specific indices : "):
+			start = input("Enter starting index : ")
+			end = input("Enter ending index : ")
+
 	if not os.path.exists("videos"):
 		os.mkdir("videos")
 	if not os.path.exists("playlists"):
 		os.mkdir("playlists")
-	if arguments.f:
-		f = open(arguments.f)
-		for line in f:
-			if line[0] == '#':
-				continue
-			if 'youtube.com/playlist' in list:
-				playlist(arguments.u, arguments.start, arguments.end, audio=arguments.a)
-			else:
-				downloadvideo(arguments.u, audio=arguments.a)
+	if 'youtube.com/playlist' in url:
+		if start == 0 and end == 0:
+			playlist(url, start=None, end=None, audio=False)
 		else:
-			pass
-		f.close()
-	elif arguments.p:
-		playlist(arguments.u, arguments.start, arguments.end, audio=arguments.a)
+			playlist(url, start, end, audio=False)
 	else:
-		downloadvideo(arguments.u, audio=arguments.a)
-
+		downloadvideo(url, audio=False)
 
 if __name__ == '__main__':
 	main()

@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PySide/Paint.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/Scrapper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SHC/GraphicsGenerator/gen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/TKinter/1..py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python Chat/P2P/ChatClient.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python Chat/P2P/ChatServer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/States.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/StatesExample.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/Kivy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/PySide/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/Kivy/basicapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python Chat/No GUI/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python Chat/No GUI/server1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/TTS/ttstest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/TTS/ttsvoices.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" afterPath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/youtube_downloader.py" afterPath="$PROJECT_DIR$/Youtube/youtube_downloader.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\1.py" afterPath="$PROJECT_DIR$/GUI/PySide/1.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\2.py" afterPath="$PROJECT_DIR$/GUI/PySide/2.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\3.py" afterPath="$PROJECT_DIR$/GUI/PySide/3.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\4.py" afterPath="$PROJECT_DIR$/GUI/PySide/4.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\Paint.py" afterPath="$PROJECT_DIR$/GUI/PySide/Paint.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut2.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut2.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut3.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut3.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\PySide\tut4.py" afterPath="$PROJECT_DIR$/GUI/PySide/tut4.py" />
+      <change type="MOVED" beforePath="E:\My Documents\GitHub\Hobby_Projects\Youtube\__init__.py" afterPath="$PROJECT_DIR$/Python Chat/No GUI/__init__.py" />
     </list>
     <ignored path="Test_Projects.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,31 +42,35 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Test_Projects$4.coverage" NAME="4 Coverage Results" MODIFIED="1416579770293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$2.coverage" NAME="2 Coverage Results" MODIFIED="1416429469932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$1.coverage" NAME="1 Coverage Results" MODIFIED="1416459723045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1416458755953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$main.coverage" NAME="main Coverage Results" MODIFIED="1419790987919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Screenshots" />
-    <SUITE FILE_PATH="coverage/Test_Projects$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1419326300497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
-    <SUITE FILE_PATH="coverage/Test_Projects$movfile.coverage" NAME="movfile Coverage Results" MODIFIED="1416996564482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
     <SUITE FILE_PATH="coverage/Test_Projects$TopLinks.coverage" NAME="TopLinks Coverage Results" MODIFIED="1416931210348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-    <SUITE FILE_PATH="coverage/Test_Projects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1419314443995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
-    <SUITE FILE_PATH="coverage/Test_Projects$GoogleSearch.coverage" NAME="GoogleSearch Coverage Results" MODIFIED="1416684202944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
-    <SUITE FILE_PATH="coverage/Test_Projects$tut3.coverage" NAME="tut3 Coverage Results" MODIFIED="1416684995945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$States.coverage" NAME="States Coverage Results" MODIFIED="1420012210358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1419409265990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$photos.coverage" NAME="photos Coverage Results" MODIFIED="1417844249827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Test_Projects$Paint.coverage" NAME="Paint Coverage Results" MODIFIED="1419956665115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$WikiGrabber.coverage" NAME="WikiGrabber Coverage Results" MODIFIED="1417260931455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
+    <SUITE FILE_PATH="coverage/Test_Projects$States_Factorial.coverage" NAME="States_Factorial Coverage Results" MODIFIED="1420012355480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$StatesExample.coverage" NAME="StatesExample Coverage Results" MODIFIED="1420006313277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1416459115772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
-    <SUITE FILE_PATH="coverage/Test_Projects$yt.coverage" NAME="yt Coverage Results" MODIFIED="1419322352366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
-    <SUITE FILE_PATH="coverage/Test_Projects$3.coverage" NAME="3 Coverage Results" MODIFIED="1416472188817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$playlist.coverage" NAME="playlist Coverage Results" MODIFIED="1419776829894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
-    <SUITE FILE_PATH="coverage/Test_Projects$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1417845362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Test_Projects$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1419360163708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Test_Projects$eg.coverage" NAME="eg Coverage Results" MODIFIED="1419265525006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
     <SUITE FILE_PATH="coverage/Test_Projects$Downloader.coverage" NAME="Downloader Coverage Results" MODIFIED="1419784131129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
-    <SUITE FILE_PATH="coverage/Test_Projects$GoogleSuggestions.coverage" NAME="GoogleSuggestions Coverage Results" MODIFIED="1416683285586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/Test_Projects$Main.coverage" NAME="Main Coverage Results" MODIFIED="1419785528324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Test_Projects$ChatServer.coverage" NAME="ChatServer Coverage Results" MODIFIED="1420032513250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Chat/P2P" />
+    <SUITE FILE_PATH="coverage/Test_Projects$1.coverage" NAME="1 Coverage Results" MODIFIED="1416459723045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$4.coverage" NAME="4 Coverage Results" MODIFIED="1416579770293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1419326300497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
+    <SUITE FILE_PATH="coverage/Test_Projects$main.coverage" NAME="main Coverage Results" MODIFIED="1419790987919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Screenshots" />
+    <SUITE FILE_PATH="coverage/Test_Projects$movfile.coverage" NAME="movfile Coverage Results" MODIFIED="1416996564482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt" />
+    <SUITE FILE_PATH="coverage/Test_Projects$tut3.coverage" NAME="tut3 Coverage Results" MODIFIED="1416684995945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$GoogleSearch.coverage" NAME="GoogleSearch Coverage Results" MODIFIED="1416684202944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
+    <SUITE FILE_PATH="coverage/Test_Projects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1419314443995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
+    <SUITE FILE_PATH="coverage/Test_Projects$WikiGrabber.coverage" NAME="WikiGrabber Coverage Results" MODIFIED="1417260931455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
+    <SUITE FILE_PATH="coverage/Test_Projects$yt.coverage" NAME="yt Coverage Results" MODIFIED="1419322352366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Test_Projects$3.coverage" NAME="3 Coverage Results" MODIFIED="1416472188817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
+    <SUITE FILE_PATH="coverage/Test_Projects$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1417845362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
+    <SUITE FILE_PATH="coverage/Test_Projects$GoogleSuggestions.coverage" NAME="GoogleSuggestions Coverage Results" MODIFIED="1416683285586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -57,18 +83,7 @@
     <favorites_list name="Test_Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Scrapper.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/Scrapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10602911" vertical-offset="0" max-vertical-offset="481">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -77,64 +92,31 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="SYNC_SETTING" value="DONT" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../_ProjectMagPy/MagPy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PySide/1.py" />
-        <option value="$PROJECT_DIR$/PySide/2.py" />
-        <option value="$PROJECT_DIR$/PySide/3.py" />
-        <option value="$PROJECT_DIR$/PySide/4.py" />
-        <option value="$PROJECT_DIR$/Youtube/youtube_downloader.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/index.html" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/ideas/IdeaList.txt" />
+        <option value="$PROJECT_DIR$/Youtube/StreamingLink/list.txt" />
+        <option value="$PROJECT_DIR$/Youtube/StreamingLink/link2stream.py" />
+        <option value="$PROJECT_DIR$/Kivy/basicapp.py" />
+        <option value="$PROJECT_DIR$/GUI/TKinter/1..py" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/IdeaList.txt" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/References.txt" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSuggestions.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/main.py" />
-        <option value="$PROJECT_DIR$/PySide/tut3.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/Search/TopLinks.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/GoogleImages.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/start.py" />
-        <option value="$PROJECT_DIR$/Bulls and Cows/main.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/WikiGrabber.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/main.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/processdata.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/linksearch.py" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/search.py" />
-        <option value="$PROJECT_DIR$/HK/photos.py" />
-        <option value="$PROJECT_DIR$/HK/getpass_brute.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/GUI/eg.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/GUI/FolderChooser.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/GUI/main.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/test/main.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/gui.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/test.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/yt.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/yt.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/pipe.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/movfile.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/mstatus" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/mfail" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/movepy.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/active.txt" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/main.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/DownloadLoop.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/temp.txt" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/playlist.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/MovePy.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/Mover.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/files/pstatus" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/Main.py" />
-        <option value="$PROJECT_DIR$/Others/autoyt/v2/Downloader.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/Scrapper.py" />
-        <option value="$PROJECT_DIR$/Screenshots/main.py" />
-        <option value="$PROJECT_DIR$/PySide/Paint.py" />
-        <option value="$PROJECT_DIR$/../SHC/GraphicsGenerator/gen.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/link_collector.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/process_data.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py" />
+        <option value="E:/MGU RSET/MGUDataEntryFinal.py" />
+        <option value="E:/MGU RSET/config.py" />
+        <option value="E:/MGU RSET/test.py" />
+        <option value="E:/MGU RSET/Notes.txt" />
+        <option value="$PROJECT_DIR$/Others/TTS/ttstest.py" />
+        <option value="$PROJECT_DIR$/Others/TTS/ttsvoices.py" />
+        <option value="$PROJECT_DIR$/Youtube/youtube_downloader.py" />
       </list>
     </option>
   </component>
@@ -143,6 +125,22 @@
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +158,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -185,35 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Local Files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kivy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphicsGenerator" />
+              <option name="myItemId" value="Hobby_Projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,6 +196,10 @@
               <option name="myItemId" value="Hobby_Projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Youtube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -234,128 +208,116 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SHC" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="828" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="152" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="828" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings />
+      <console-settings module-name="Hobby_Projects" sdk-home="C:\Python27\python.exe">
+        <option name="mySdkHome" value="C:\Python27\python.exe" />
+        <option name="myModuleName" value="Hobby_Projects" />
+      </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Youtube\StreamingLink" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\HK\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MGU RSET" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\GUI" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Python Chat\P2P" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Python Chat\No GUI" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\test" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Paint">
-    <configuration default="false" name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.youtube_downloader">
+    <configuration default="false" name="ttstest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt/v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/TTS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/Main.py" />
-      <option name="PARAMETERS" value="downloads/" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt/v2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/Downloader.py" />
-      <option name="PARAMETERS" value="downloads/" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="playlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/autoyt/v2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/autoyt/v2/playlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/TTS/ttstest.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ttsvoices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Screenshots" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/TTS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Screenshots/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/TTS/ttsvoices.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Paint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="youtube_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PySide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Youtube" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PySide/Paint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Youtube/youtube_downloader.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -368,11 +330,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hobby_Projects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -400,7 +383,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -418,51 +401,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -485,7 +423,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
+    <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -503,22 +441,20 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Downloader" />
-      <item index="2" class="java.lang.String" itemvalue="Python.playlist" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Paint" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.ttstest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ttsvoices" />
+      <item index="2" class="java.lang.String" itemvalue="Python.youtube_downloader" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Paint" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Downloader" />
-        <item index="4" class="java.lang.String" itemvalue="Python.playlist" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.youtube_downloader" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ttsvoices" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ttstest" />
       </list>
     </recent_temporary>
   </component>
@@ -530,118 +466,181 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="" />
       <created>1415023718783</created>
+      <option name="number" value="Default" />
       <updated>1415023718783</updated>
     </task>
     <task id="LOCAL-00001" summary="Pyside_1">
       <created>1416428522384</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1416428522384</updated>
     </task>
     <task id="LOCAL-00002" summary="Pyside_2">
       <created>1416429594765</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1416429594765</updated>
     </task>
     <task id="LOCAL-00003" summary="Pyside_Study">
       <created>1416474103957</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1416474103957</updated>
     </task>
     <task id="LOCAL-00004" summary="Pyside_Study">
       <created>1416584855635</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1416584855635</updated>
     </task>
     <task id="LOCAL-00005" summary="Pyside_Study">
       <created>1416591226856</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1416591226856</updated>
     </task>
     <task id="LOCAL-00006" summary="MagPy HelpFiles added">
       <created>1416594115368</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1416594115368</updated>
     </task>
     <task id="LOCAL-00007" summary="Google word suggester added [needs threading support]">
       <created>1416683409445</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1416683409445</updated>
     </task>
     <task id="LOCAL-00008" summary="Search">
       <created>1416684334389</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1416684334389</updated>
     </task>
     <task id="LOCAL-00009" summary="calc">
       <created>1416685627484</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1416685627484</updated>
     </task>
     <task id="LOCAL-00010" summary="GoogleSuggestions">
       <created>1416761073721</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1416761073721</updated>
     </task>
     <task id="LOCAL-00011" summary="GoogleSuggestions">
       <created>1416823512510</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1416823512510</updated>
     </task>
     <task id="LOCAL-00012" summary="GoogleImages">
       <created>1416933057047</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1416933057047</updated>
     </task>
     <task id="LOCAL-00013" summary="Auto move Completed added">
       <created>1416996855366</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1416996855366</updated>
     </task>
     <task id="LOCAL-00014" summary="Auto move Completed ++">
       <created>1416997328961</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1416997328961</updated>
     </task>
     <task id="LOCAL-00015" summary="WikiGrabber alpha">
       <created>1417261007272</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1417261007272</updated>
     </task>
     <task id="LOCAL-00016" summary="base1">
       <created>1417261377066</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1417261377066</updated>
     </task>
     <task id="LOCAL-00017" summary="v2">
       <created>1419262283401</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1419262283401</updated>
     </task>
     <task id="LOCAL-00018" summary="v2">
       <created>1419265710344</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1419265710344</updated>
     </task>
     <task id="LOCAL-00019" summary=".">
       <created>1419337236233</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1419337236233</updated>
     </task>
     <task id="LOCAL-00020" summary=".">
       <created>1419337267060</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1419337267060</updated>
     </task>
     <task id="LOCAL-00021" summary="v2">
       <created>1419337290990</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1419337290990</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="v2">
+      <created>1420475871214</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1420475871214</updated>
+    </task>
+    <task id="LOCAL-00023" summary="v2">
+      <created>1420475895322</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1420475895322</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pm">
+      <created>1420738715911</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1420738715911</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19280206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3181208" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3167785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.5003796" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49959382" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.49962035" order="13" side_tool="true" content_ui="combo" x="127" y="692" width="1288" height="242" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1818766" sideWeight="0.5006748" order="4" side_tool="true" content_ui="combo" x="129" y="130" width="347" height="719" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23447402" sideWeight="0.49932525" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -660,6 +659,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="Pyside_1" />
     <MESSAGE value="Pyside_2" />
     <MESSAGE value="Pyside_Study" />
@@ -675,7 +675,8 @@
     <MESSAGE value="base1" />
     <MESSAGE value="." />
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+    <MESSAGE value="pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="pm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -686,208 +687,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PySide/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/tut2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0222718" vertical-offset="0" max-vertical-offset="561">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/IdeaList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/References.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.047419805" vertical-offset="0" max-vertical-offset="717">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8574423" vertical-offset="339" max-vertical-offset="884">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSuggestions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60587" vertical-offset="408" max-vertical-offset="952">
-          <caret line="41" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/TopLinks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.17119" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4321503" vertical-offset="65" max-vertical-offset="612">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/GoogleImages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6281337" vertical-offset="399" max-vertical-offset="1139">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Search/GoogleSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="13" column="132" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/WikiGrabber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49686846" vertical-offset="51" max-vertical-offset="782">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/BingSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/processdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RSMS-profile/pfile.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/wamp/www/CseBeta/data/fin.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3690304" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RSMS-profile/p.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024602026" vertical-offset="51" max-vertical-offset="2125">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/fin.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="0" column="57" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/getpass_brute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16573817" vertical-offset="0" max-vertical-offset="718">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/photos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14206128" vertical-offset="0" max-vertical-offset="718">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/rsetpass.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="718">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09470752" vertical-offset="0" max-vertical-offset="718">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/YahooSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/GoogleSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37883008" vertical-offset="0" max-vertical-offset="718">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/3.py">
+    <entry file="file://$PROJECT_DIR$/GUI/PySide/3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="718">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/tut3.py">
+    <entry file="file://$PROJECT_DIR$/GUI/PySide/tut3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6645833" vertical-offset="51" max-vertical-offset="986">
           <caret line="53" column="8" selection-start-line="52" selection-start-column="10" selection-end-line="53" selection-end-column="8" />
@@ -929,16 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/PySide/QtGui/QDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1275">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#616#620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/mstatus">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
@@ -957,13 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/youtube_downloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4273859" vertical-offset="15" max-vertical-offset="1037">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1034,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33147633" vertical-offset="0" max-vertical-offset="718">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,36 +836,223 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10602911" vertical-offset="0" max-vertical-offset="481">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PySide/Paint.py">
+    <entry file="file://$PROJECT_DIR$/GUI/PySide/Paint.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79002076" vertical-offset="640" max-vertical-offset="1122">
           <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#168#217#0" expanded="true" />
-            <element signature="e#256#317#0" expanded="true" />
-            <element signature="e#355#379#0" expanded="true" />
-            <element signature="e#420#547#0" expanded="true" />
-            <element signature="e#570#716#0" expanded="true" />
-            <element signature="e#744#772#0" expanded="true" />
-            <element signature="e#812#1133#0" expanded="true" />
-            <element signature="e#1159#1327#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/PySide/StatesExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21161826" vertical-offset="408" max-vertical-offset="1020">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/PySide/examples/animation/states/states.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7846482" vertical-offset="2183" max-vertical-offset="4539">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/PySide/States.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45850623" vertical-offset="51" max-vertical-offset="952">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Chat/P2P/ChatServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3526971" vertical-offset="340" max-vertical-offset="901">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Chat/No GUI/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59958506" vertical-offset="0" max-vertical-offset="482">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Chat/No GUI/server1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7406639" vertical-offset="0" max-vertical-offset="482">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Chat/P2P/ChatClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.753112" vertical-offset="249" max-vertical-offset="901">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/temp_files/Scrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10602911" vertical-offset="0" max-vertical-offset="481">
+        <state vertical-scroll-proportion="0.07132867" vertical-offset="0" max-vertical-offset="715">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/StreamingLink/pafy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25517">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/StreamingLink/link2stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5658466" vertical-offset="153" max-vertical-offset="884">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/StreamingLink/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07380608" vertical-offset="0" max-vertical-offset="691">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/Kivy/basicapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21935484" vertical-offset="0" max-vertical-offset="465">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/References.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1968162" vertical-offset="0" max-vertical-offset="691">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/HelpFiles/IdeaList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0984081" vertical-offset="0" max-vertical-offset="691">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/TKinter/1..py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0984081" vertical-offset="0" max-vertical-offset="691">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07380608" vertical-offset="0" max-vertical-offset="691">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6238938" vertical-offset="2642" max-vertical-offset="3111">
+          <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/FirstYearData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45132744" vertical-offset="0" max-vertical-offset="452">
+          <caret line="12" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/LOG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8387096" vertical-offset="0" max-vertical-offset="11084">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2345133" vertical-offset="1282" max-vertical-offset="1734">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/MGUDataEntryFinal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73623854" vertical-offset="3266" max-vertical-offset="3740">
+          <caret line="211" column="0" selection-start-line="208" selection-start-column="8" selection-end-line="211" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/MGU RSET/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="452">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/TTS/ttsvoices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43776825" vertical-offset="0" max-vertical-offset="466">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/TTS/ttstest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/youtube_downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56569344" vertical-offset="693" max-vertical-offset="1241">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
