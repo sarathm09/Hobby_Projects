@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewSight/speech_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewSight/ttstest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewSight/wiki_reader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" afterPath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_ProjectMagPy/MagPy/.idea/MagPy.iml" afterPath="$PROJECT_DIR$/../_ProjectMagPy/MagPy/.idea/MagPy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SHC/.idea/SHC.iml" afterPath="$PROJECT_DIR$/../SHC/.idea/SHC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewSight/theHindu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test_Projects.iws" />
@@ -66,24 +59,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wiki_reader.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../NewSight/wiki_reader.py">
+      <file leaf-file-name="theHindu.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../NewSight/theHindu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3104925" vertical-offset="0" max-vertical-offset="748">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37444934" vertical-offset="0" max-vertical-offset="454">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="speech_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../NewSight/speech_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,6 +110,8 @@
         <option value="$PROJECT_DIR$/../NewSight/speech.py" />
         <option value="$PROJECT_DIR$/../NewSight/speech_test.py" />
         <option value="$PROJECT_DIR$/../NewSight/wiki_reader.py" />
+        <option value="$PROJECT_DIR$/../NewSight/rss.xml" />
+        <option value="$PROJECT_DIR$/../NewSight/theHindu.py" />
       </list>
     </option>
   </component>
@@ -178,17 +163,18 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test_Projects" />
+              <option name="myItemId" value="Hobby_Projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test_Projects" />
+              <option name="myItemId" value="Hobby_Projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -198,7 +184,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +237,7 @@
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Python Chat\No GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wiki_reader">
+  <component name="RunManager" selected="Python.theHindu">
     <configuration default="false" name="speech_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,6 +272,26 @@
       <module name="NewSight" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewSight/wiki_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="theHindu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewSight" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewSight" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewSight/theHindu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -421,14 +426,16 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.speech_test" />
       <item index="1" class="java.lang.String" itemvalue="Python.wiki_reader" />
+      <item index="2" class="java.lang.String" itemvalue="Python.theHindu" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.wiki_reader" />
-        <item index="1" class="java.lang.String" itemvalue="Python.speech_test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.theHindu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wiki_reader" />
+        <item index="2" class="java.lang.String" itemvalue="Python.speech_test" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +612,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420738778770</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Speech Recognition">
+      <created>1420831456242</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1420831456242</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -633,7 +646,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18060836" sideWeight="0.5006748" order="2" side_tool="true" content_ui="combo" x="129" y="130" width="347" height="719" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17997465" sideWeight="0.5006748" order="2" side_tool="true" content_ui="combo" x="129" y="130" width="347" height="719" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.5003796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -689,7 +702,8 @@
     <MESSAGE value="pm" />
     <MESSAGE value="." />
     <MESSAGE value="gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="gui" />
+    <MESSAGE value="Speech Recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Speech Recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,18 +714,11 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/GUI/eg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2805">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/GUI/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0914761" vertical-offset="1073" max-vertical-offset="1921">
@@ -1031,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1551095" vertical-offset="0" max-vertical-offset="548">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1045,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80085653" vertical-offset="153" max-vertical-offset="816">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NewSight/wiki_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="748">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1047,16 +1059,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NewSight/wiki_reader.py">
+    <entry file="file://$PROJECT_DIR$/../NewSight/rss.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3104925" vertical-offset="0" max-vertical-offset="748">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="131716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NewSight/theHindu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37444934" vertical-offset="0" max-vertical-offset="454">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
