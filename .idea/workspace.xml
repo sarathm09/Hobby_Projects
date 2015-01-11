@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4321ffe3-e549-4148-ae63-ea9e46ba6bd2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NewSight/theHindu.py" afterPath="$PROJECT_DIR$/../NewSight/theHindu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HK/getpass_brute.py" afterPath="$PROJECT_DIR$/HK/getpass_brute.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test_Projects.iws" />
@@ -57,20 +57,7 @@
     <favorites_list name="Test_Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="theHindu.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../NewSight/theHindu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3370044" vertical-offset="0" max-vertical-offset="493">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -79,7 +66,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../NewSight" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
@@ -94,9 +81,7 @@
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/search.py" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/link_collector.py" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/process_data.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py" />
         <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui.py" />
-        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py" />
         <option value="E:/MGU RSET/MGUDataEntryFinal.py" />
         <option value="E:/MGU RSET/config.py" />
         <option value="E:/MGU RSET/test.py" />
@@ -111,14 +96,20 @@
         <option value="$PROJECT_DIR$/../NewSight/wiki_reader.py" />
         <option value="$PROJECT_DIR$/../NewSight/rss.xml" />
         <option value="$PROJECT_DIR$/../NewSight/theHindu.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py" />
+        <option value="$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py" />
+        <option value="$PROJECT_DIR$/HK/getpass_brute.py" />
+        <option value="$PROJECT_DIR$/Periodic Table Extractor/table.csv" />
+        <option value="$PROJECT_DIR$/Periodic Table Extractor/extract.py" />
+        <option value="$PROJECT_DIR$/Periodic Table Extractor/elementdatabase.com.py" />
+        <option value="$PROJECT_DIR$/Periodic Table Extractor/b.txt" />
+        <option value="$PROJECT_DIR$/Periodic Table Extractor/periodictable.com.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1600" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -162,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,18 +161,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hobby_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewSight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,68 +210,48 @@
       <recent name="E:\My Documents\GitHub\Hobby_Projects\HK\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments\Wikipedia" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments\Google_Images" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments" />
       <recent name="E:\My Documents\GitHub\NewSight" />
       <recent name="E:\MGU RSET" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\GUI" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\Python Chat\P2P" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\Python Chat\No GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.theHindu">
-    <configuration default="false" name="speech_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.periodictable.com">
+    <configuration default="false" name="extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewSight" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Periodic Table Extractor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewSight" />
+      <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewSight/speech_test.py" />
+      <option name="SCRIPT_NAME" value="E:\My Documents\GitHub\Hobby_Projects\Periodic Table Extractor\elementdatabase.com.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="wiki_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="periodictable.com" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewSight" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Periodic Table Extractor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewSight" />
+      <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewSight/wiki_reader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="theHindu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewSight" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewSight" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewSight/theHindu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Periodic Table Extractor/periodictable.com.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -425,16 +386,14 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.speech_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wiki_reader" />
-      <item index="2" class="java.lang.String" itemvalue="Python.theHindu" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.extract" />
+      <item index="1" class="java.lang.String" itemvalue="Python.periodictable.com" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.theHindu" />
-        <item index="1" class="java.lang.String" itemvalue="Python.wiki_reader" />
-        <item index="2" class="java.lang.String" itemvalue="Python.speech_test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.periodictable.com" />
+        <item index="1" class="java.lang.String" itemvalue="Python.extract" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +582,25 @@
       <option name="project" value="LOCAL" />
       <updated>1420876935477</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Speech Recognition +The  Hindu rss">
+      <created>1420888722105</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1420888722105</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Periodic Table Scrapping">
+      <created>1420992705698</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1420992705698</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added class Skeletons">
+      <created>1420992729394</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1420992729394</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -647,30 +624,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18181819" sideWeight="0.5006748" order="2" side_tool="true" content_ui="combo" x="129" y="130" width="347" height="719" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31432545" sideWeight="0.5003796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49959382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3125" sideWeight="0.49962035" order="13" side_tool="true" content_ui="combo" x="127" y="692" width="1288" height="242" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17997465" sideWeight="0.5006748" order="2" side_tool="true" content_ui="combo" x="129" y="130" width="347" height="719" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23447402" sideWeight="0.49932525" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31960228" sideWeight="0.49962035" order="13" side_tool="true" content_ui="combo" x="127" y="692" width="1288" height="242" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -708,7 +685,10 @@
     <MESSAGE value="." />
     <MESSAGE value="gui" />
     <MESSAGE value="Speech Recognition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speech Recognition" />
+    <MESSAGE value="Speech Recognition +The  Hindu rss" />
+    <MESSAGE value="Periodic Table Scrapping" />
+    <MESSAGE value="Added class Skeletons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class Skeletons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,76 +704,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/GUI/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0914761" vertical-offset="1073" max-vertical-offset="1921">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="144" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/test/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3180873" vertical-offset="0" max-vertical-offset="481">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/mstatus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3326404" vertical-offset="1122" max-vertical-offset="2788">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/mfail">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/yt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.082987554" vertical-offset="164" max-vertical-offset="952">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/active.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Downloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3370044" vertical-offset="1909" max-vertical-offset="2720">
-          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5414938" vertical-offset="1813" max-vertical-offset="2652">
-          <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/Mover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21161826" vertical-offset="0" max-vertical-offset="680">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/autoyt/v2/files/pstatus">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17634855" vertical-offset="0" max-vertical-offset="482">
@@ -948,34 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0984081" vertical-offset="0" max-vertical-offset="691">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17221418" vertical-offset="0" max-vertical-offset="691">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07380608" vertical-offset="0" max-vertical-offset="691">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/MGU RSET/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6238938" vertical-offset="2642" max-vertical-offset="3111">
@@ -1046,7 +928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wikipedia/wiki_extract.py">
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Wikipedia/wiki_extract.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80085653" vertical-offset="153" max-vertical-offset="816">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
@@ -1078,9 +960,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3370044" vertical-offset="0" max-vertical-offset="493">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="692">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/gui_interaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27023122" vertical-offset="0" max-vertical-offset="692">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/data_collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54046243" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/bin/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HK/rsetpass.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/pfile.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMS-profile/p.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6040462" vertical-offset="1433" max-vertical-offset="2125">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HK/getpass_brute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34475374" vertical-offset="162" max-vertical-offset="935">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#42#58#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Periodic Table Extractor/table.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37694013" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="1696" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Periodic Table Extractor/periodictable.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26385808" vertical-offset="272" max-vertical-offset="765">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/Periodic Table Extractor/elementdatabase.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8292683" vertical-offset="0" max-vertical-offset="510">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHC_reborn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHC_reborn/shc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHC_reborn/data/debug.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
