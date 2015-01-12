@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/Dropbox/#NewSight/.idea/#NewSight.iml" filepath="E:/Dropbox/#NewSight/.idea/#NewSight.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Hobby_Projects.iml" filepath="$PROJECT_DIR$/.idea/Hobby_Projects.iml" />
       <module fileurl="file://E:/MGU RSET/.idea/MGU RSET.iml" filepath="E:/MGU RSET/.idea/MGU RSET.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../_ProjectMagPy/MagPy/.idea/MagPy.iml" filepath="$PROJECT_DIR$/../_ProjectMagPy/MagPy/.idea/MagPy.iml" />
+      <module fileurl="file://E:/Dropbox/_ProjectMagPy/MagPy/.idea/MagPy.iml" filepath="E:/Dropbox/_ProjectMagPy/MagPy/.idea/MagPy.iml" />
       <module fileurl="file://$PROJECT_DIR$/../NewSight/.idea/NewSight.iml" filepath="$PROJECT_DIR$/../NewSight/.idea/NewSight.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SHC/.idea/SHC.iml" filepath="$PROJECT_DIR$/../SHC/.idea/SHC.iml" />
     </modules>
