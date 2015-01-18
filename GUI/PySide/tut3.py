@@ -9,7 +9,7 @@ from math import *
 class form(QDialog):
 	def __init__(self, parent=None):
 		super(form, self).__init__(parent)
-
+		print QStyleFactory.keys()
 		self.browser = QTextBrowser()
 		self.linedit = QLineEdit()
 		self.label = QLabel()
@@ -50,6 +50,7 @@ class form(QDialog):
 
 
 app = QApplication(sys.argv)
+app.setStyle(QStyleFactory.create("WindowsVista"))
 f = form()
 f.show()
 app.exec_()
