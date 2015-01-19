@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="#NewSight" />
     <orderEntry type="module" module-name="MGU RSET" />
+    <orderEntry type="module" module-name="LearningFlask" />
   </component>
 </module>
