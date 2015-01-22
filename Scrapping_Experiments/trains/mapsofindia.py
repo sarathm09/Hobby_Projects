@@ -1,7 +1,7 @@
 import urllib
 from BeautifulSoup import BeautifulSoup
 
-tlist = open('trains.txt').read().split("\n")
+tlist = open('southtrains.txt').read().split("\n")
 for t in tlist:
 	data = urllib.urlopen(
 		"http://www.mapsofindia.com/railway-timetable/train/check.php?value=" + t.replace(" ", "+")).read()
@@ -17,5 +17,5 @@ for t in tlist:
 		tr += (i.text + ",")
 		if n % 9 == 0:
 			tr += "\n"
-	open('trains.csv', 'a').write(tr + "\n")
+	open('southtrains.csv', 'a').write(tr + "\n")
 	print 'completed ' + str(tlist.index(t))
