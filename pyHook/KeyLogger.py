@@ -50,4 +50,3 @@ if __name__ == '__main__':
 	key.KeyDown = key_event
 	key.HookKeyboard()
 	pythoncom.PumpMessages()
-#hello this is a test!@#~this is a test$#~@$#	asd+#$&!
