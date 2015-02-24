@@ -58,9 +58,9 @@ def main():
 		os.mkdir("playlists")
 	if 'youtube.com/playlist' in url:
 		if start == 0 and end == 0:
-			playlist(url, start=None, end=None, audio=False)
+			playlist(url, start=None, end=None, audio=True)
 		else:
-			playlist(url, start, end, audio=False)
+			playlist(url, start, end, audio=True)
 	else:
 		downloadvideo(url, audio=False)
 
