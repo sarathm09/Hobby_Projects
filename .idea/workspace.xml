@@ -32,15 +32,19 @@
     <SUITE FILE_PATH="coverage/Test_Projects$3.coverage" NAME="3 Coverage Results" MODIFIED="1416472188817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$Main.coverage" NAME="Main Coverage Results" MODIFIED="1419785528324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$dragndrop.coverage" NAME="dragndrop Coverage Results" MODIFIED="1421696224949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/PySide" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$MySQL1.coverage" NAME="MySQL1 Coverage Results" MODIFIED="1424613208776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Databses" />
     <SUITE FILE_PATH="coverage/Test_Projects$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1416458755953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$GoogleSuggestions.coverage" NAME="GoogleSuggestions Coverage Results" MODIFIED="1416683285586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/Search" />
     <SUITE FILE_PATH="coverage/Test_Projects$WikiGrabber.coverage" NAME="WikiGrabber Coverage Results" MODIFIED="1417260931455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$recursive_scrape.coverage" NAME="recursive_scrape Coverage Results" MODIFIED="1421871038296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$searchengine2.coverage" NAME="searchengine2 Coverage Results" MODIFIED="1424622065109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$YahooSearch.coverage" NAME="YahooSearch Coverage Results" MODIFIED="1422811330252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/temp_files" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$upload.coverage" NAME="upload Coverage Results" MODIFIED="1424799995972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csbeta file upload automation" />
     <SUITE FILE_PATH="coverage/Test_Projects$eg.coverage" NAME="eg Coverage Results" MODIFIED="1419265525006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/GUI" />
-    <SUITE FILE_PATH="coverage/Hobby_Projects$custom.coverage" NAME="custom Coverage Results" MODIFIED="1423152600563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$custom.coverage" NAME="custom Coverage Results" MODIFIED="1424026970890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/temp_files" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$style.coverage" NAME="style Coverage Results" MODIFIED="1421716005056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/PySide" />
     <SUITE FILE_PATH="coverage/Test_Projects$playlist.coverage" NAME="playlist Coverage Results" MODIFIED="1419776829894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others/autoyt/v2" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$staacked.coverage" NAME="staacked Coverage Results" MODIFIED="1424029523058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/temp_files" />
     <SUITE FILE_PATH="coverage/Test_Projects$4.coverage" NAME="4 Coverage Results" MODIFIED="1416579770293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$js.coverage" NAME="js Coverage Results" MODIFIED="1421869842447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping_Experiments/trains" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$recursivenav.coverage" NAME="recursivenav Coverage Results" MODIFIED="1423072215596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav" />
@@ -55,6 +59,7 @@
     <SUITE FILE_PATH="coverage/Test_Projects$photos.coverage" NAME="photos Coverage Results" MODIFIED="1417844249827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$basicnav.coverage" NAME="basicnav Coverage Results" MODIFIED="1424021766547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$goog.coverage" NAME="goog Coverage Results" MODIFIED="1421948459432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/temp_files" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$gui_interaction2.coverage" NAME="gui_interaction2 Coverage Results" MODIFIED="1424615955858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
     <SUITE FILE_PATH="coverage/Test_Projects$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1416459115772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$selenium.coverage" NAME="selenium Coverage Results" MODIFIED="1421784800761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Others" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$LearningFlask.coverage" NAME="LearningFlask Coverage Results" MODIFIED="1421606725837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -72,7 +77,9 @@
     <SUITE FILE_PATH="coverage/Test_Projects$getpass_brute.coverage" NAME="getpass_brute Coverage Results" MODIFIED="1417845362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HK" />
     <SUITE FILE_PATH="coverage/Test_Projects$Paint.coverage" NAME="Paint Coverage Results" MODIFIED="1419956665115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PySide" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$gui_inter.coverage" NAME="gui_inter Coverage Results" MODIFIED="1423075894196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$infoDialogs.coverage" NAME="infoDialogs Coverage Results" MODIFIED="1424276423618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
     <SUITE FILE_PATH="coverage/Hobby_Projects$gui_inter__1_.coverage" NAME="gui_inter (1) Coverage Results" MODIFIED="1423149795393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
+    <SUITE FILE_PATH="coverage/Hobby_Projects$gui_interaction.coverage" NAME="gui_interaction Coverage Results" MODIFIED="1424310322061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -86,23 +93,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="url_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/thumssy/url_list.py">
+      <file leaf-file-name="infoDialogs.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/infoDialogs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Csbeta file upload automation/upload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8156182" vertical-offset="32" max-vertical-offset="544">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicnav.py" pinned="false" current-in-tab="true">
-        <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/basicnav.py">
+      <file leaf-file-name="guidata.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/guidata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92325056" vertical-offset="16" max-vertical-offset="527">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="918">
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -117,25 +134,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/Dropbox/_ProjectMagPy/MagPy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/data_exporter.py" />
-        <option value="$PROJECT_DIR$/Scrapping_Experiments/90di/test.py" />
-        <option value="$PROJECT_DIR$/django/start.py" />
-        <option value="$PROJECT_DIR$/LearningDjango/test1/test1/settings.py" />
-        <option value="$PROJECT_DIR$/LearningDjango/test1/myapp/admin.py" />
-        <option value="$PROJECT_DIR$/LearningDjango/test1/myapp/models.py" />
-        <option value="$PROJECT_DIR$/pyHook/mouse.py" />
-        <option value="$PROJECT_DIR$/pyHook/keyboard.py" />
-        <option value="$PROJECT_DIR$/pyHook/key.txt" />
-        <option value="$PROJECT_DIR$/GUI/PySide/tut3.py" />
-        <option value="E:/LearningFlask/templates/start.html" />
-        <option value="E:/LearningFlask/LearningFlask.py" />
-        <option value="E:/LearningFlask/data.csv" />
         <option value="E:/LearningFlask/90di.py" />
         <option value="E:/LearningFlask/js.py" />
         <option value="$PROJECT_DIR$/trains/trains.txt" />
@@ -174,6 +178,19 @@
         <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/main/filemanager.py" />
         <option value="E:/Dropbox/_ProjectMagPy/MagPy/thumssy/url.py" />
         <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/basicnav.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/temp_files/custom.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/temp_files/staacked.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/left_item.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/right_item.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/guidata.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_interaction.py" />
+        <option value="$PROJECT_DIR$/Databses/MySQL1.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/logs/tasklog.txt" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_interaction2.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/log_controller.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/searchengine2.py" />
+        <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/infoDialogs.py" />
+        <option value="$PROJECT_DIR$/Csbeta file upload automation/upload.py" />
       </list>
     </option>
   </component>
@@ -181,10 +198,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1543" />
-    <option name="height" value="858" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -241,29 +258,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MagPy">
+            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="E:\Dropbox\_ProjectMagPy\MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="E:\Dropbox\_ProjectMagPy\MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="thumssy">
+            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -273,59 +272,15 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MagPy">
+            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="E:\Dropbox\_ProjectMagPy\MagPy">
+            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bin/core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="nav">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="E:\Dropbox\_ProjectMagPy\MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bin/core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="E:\Dropbox\_ProjectMagPy\MagPy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bin/core">
+            <PATH_ELEMENT USER_OBJECT="Csbeta file upload automation">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -397,119 +352,95 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\nav" />
+      <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\gui" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Youtube\StreamingLink" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\HK\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\gui" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\gui\" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\nav" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\temp_files" />
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\90di" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.basicnav">
-    <configuration default="false" name="customtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.upload">
+    <configuration default="false" name="gui_interaction2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/Dropbox/_ProjectMagPy/MagPy/temp_files" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MagPy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/Dropbox/_ProjectMagPy/MagPy/temp_files/customtest.py" />
+      <option name="SCRIPT_NAME" value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_interaction2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestListView" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/PySide" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/PySide/dragndrop.py" />
-      <option name="CLASS_NAME" value="TestListView" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dragndropsimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="MySQL1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/PySide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Databses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Hobby_Projects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/PySide/dragndropsimple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Databses/MySQL1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="dragndropwidget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="searchengine2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/PySide" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Hobby_Projects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/PySide/dragndropwidget.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="basicnav" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MagPy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/basicnav.py" />
+      <option name="SCRIPT_NAME" value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/searchengine2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="upload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Csbeta file upload automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hobby_Projects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Csbeta file upload automation/upload.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -704,20 +635,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.customtest" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestListView" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dragndropsimple" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dragndropwidget" />
-      <item index="4" class="java.lang.String" itemvalue="Python.basicnav" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.gui_interaction2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MySQL1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.searchengine2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.upload" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.basicnav" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dragndropwidget" />
-        <item index="2" class="java.lang.String" itemvalue="Python.customtest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dragndropsimple" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestListView" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.upload" />
+        <item index="1" class="java.lang.String" itemvalue="Python.searchengine2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gui_interaction2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MySQL1" />
       </list>
     </recent_temporary>
   </component>
@@ -1038,8 +967,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1543" height="858" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1047,9 +976,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49959382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="13" side_tool="true" content_ui="combo" x="127" y="692" width="1288" height="242" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32083333" sideWeight="0.5" order="13" side_tool="true" content_ui="combo" x="127" y="692" width="1288" height="242" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753623" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20903574" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="129" y="130" width="347" height="719" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22493573" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="129" y="130" width="347" height="719" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23447402" sideWeight="0.49932525" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25649568" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1117,77 +1046,11 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/MGU RSET/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54767185" vertical-offset="1351" max-vertical-offset="1853">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15077606" vertical-offset="0" max-vertical-offset="646">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/extract_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyHook/mouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.694382" vertical-offset="82" max-vertical-offset="527">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/PySide/tut3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7707865" vertical-offset="490" max-vertical-offset="1003">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HK/fin.csv">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/LearningFlask/LearningFlask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52771616" vertical-offset="0" max-vertical-offset="451">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/LearningFlask/templates/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6188235" vertical-offset="1097" max-vertical-offset="1734">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/trains/trains.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85022026" vertical-offset="4011" max-vertical-offset="4692">
-          <caret line="270" column="13" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapping_Experiments/trains/90di.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -1282,27 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Desktop/ui/interfacing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39306358" vertical-offset="0" max-vertical-offset="692">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Desktop/ui/res_rc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5865" max-vertical-offset="17051">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Desktop/ui/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31936416" vertical-offset="221" max-vertical-offset="1360">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/BingSearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58176553" vertical-offset="176" max-vertical-offset="867">
@@ -1355,24 +1197,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/searchengine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_inter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/PySide/3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
@@ -1380,23 +1204,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/customtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="1003">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/PySide/dragndrop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1224">
           <caret line="62" column="15" selection-start-line="59" selection-start-column="4" selection-end-line="62" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,9 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4287834" vertical-offset="255" max-vertical-offset="1190">
           <caret line="32" column="41" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="e#183#193#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,9 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4792285" vertical-offset="510" max-vertical-offset="1615">
           <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1431,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.268546" vertical-offset="1723" max-vertical-offset="2397">
           <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,29 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88130563" vertical-offset="273" max-vertical-offset="969">
           <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/thumssy/scrape_pdf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/thumssy/final_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,27 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7477745" vertical-offset="448" max-vertical-offset="1122">
           <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/thumssy/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/thumssy/url_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,17 +1264,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/basicnav.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92325056" vertical-offset="16" max-vertical-offset="527">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.42212188" vertical-offset="68" max-vertical-offset="544">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_inter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/custom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3275489" vertical-offset="612" max-vertical-offset="1088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/customtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.22141823" vertical-offset="153" max-vertical-offset="1003">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/staacked.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48335746" vertical-offset="142" max-vertical-offset="833">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.013025" vertical-offset="18666" max-vertical-offset="22678">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/temp_files/gui_interaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29501083" vertical-offset="0" max-vertical-offset="544">
+          <caret line="8" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/right_l_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1241">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/left_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/right_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Databses/MySQL1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07375271" vertical-offset="0" max-vertical-offset="461">
+          <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_interaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6606607" vertical-offset="1086" max-vertical-offset="1887">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/log_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="748">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/gui_interaction2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5091743" vertical-offset="0" max-vertical-offset="2567">
+          <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/searchengine2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77874184" vertical-offset="3194" max-vertical-offset="3655">
+          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/nav/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4174107" vertical-offset="51" max-vertical-offset="3944">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/guidata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="918">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/logs/tasklog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/infoDialogs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Csbeta file upload automation/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8156182" vertical-offset="32" max-vertical-offset="544">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
