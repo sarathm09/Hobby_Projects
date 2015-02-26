@@ -3,7 +3,6 @@ import os
 
 path = raw_input("Path to folder: ")
 br = webdriver.Firefox()
-br.get("http://csebeta.x10.mx?login")
 page = br.get("http://csebeta.x10.mx/admin.php")
 files = os.listdir(path)
 for i in files:
