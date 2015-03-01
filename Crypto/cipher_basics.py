@@ -66,7 +66,48 @@ class Cipher():
 			temp += 1
 		return self.ans
 
-	
+	def playfair(self, key, decrypt=0):
+		pmatrix = [[] for i in range(5)]
+		key += ''.join(self.alpha)
+		key = key.upper().replace("J", "I")
+		row, col = 0, 0
+		for i in key:
+			curmat = ''.join([''.join(x) for x in pmatrix])
+			if i not in curmat:
+				if col == 5:
+					row, col = row+1, 0
+				if row == 5:
+					break
+				pmatrix[row].append(i)
+				col += 1
+		text, temp = "", self.text.replace("J", "I").replace(" ", "")
+		if len(temp)%2 == 1:
+			temp += 'X'
+		for i in temp:
+			text += i
+			if (len(text)+1)%3 == 0:
+				text += ","
+		for i in text.split(",")[:-1]:
+			row1, col1, row2, col2 = 0, -1, 0, -1
+			print i
+			for j in pmatrix:
+				if i[0] in j:
+					col1 = j.index(i[0])
+				if i[1] in j:
+					col2 = j.index(i[1])
+				if col1 == -1:
+					row1 += 1
+				if col2 == -1:
+					row2 += 1
+			print pmatrix[row1][col1], pmatrix[row2][col2]
+			if row1 == row2:
+				col1, col2 = (col1+1)%5, (col2+1)%5
+			if col1 == col2:
+				row1, row2 = (row1+1)%5, (row2+1)%5
+			else:
+				col1, col2 = col2, col1
+			print pmatrix[row1][col1], pmatrix[row2][col2]
+		return pmatrix
 
 
 
@@ -77,3 +118,5 @@ if __name__ == '__main__':
 	print Cipher("ZI EGX YMVGQZTKMY VEXI RWPVVINJ").vignere("deceptive", 1)
 	print Cipher("MEET ME AFTER THE TOGA PARTY").vernam("abcdefghijklmnopqrstuvwxyzab")
 	print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").vernam("abcdefghijklmnopqrstuvwxyzab", 1)
+	print Cipher("MEET ME AFTER THE TOGA PARTY").playfair("playfairexample")
+	# print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").playfair("playfairexample", 1)
