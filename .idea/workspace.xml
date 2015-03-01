@@ -92,18 +92,7 @@
     <favorites_list name="Test_Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="cipher_basics.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Crypto/cipher_basics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.3101954" vertical-offset="0" max-vertical-offset="2584">
-              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -118,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/LearningFlask/js.py" />
         <option value="$PROJECT_DIR$/trains/trains.txt" />
         <option value="$PROJECT_DIR$/trains/trains.csv" />
         <option value="$PROJECT_DIR$/trains/mapsofindia.py" />
@@ -169,6 +157,7 @@
         <option value="E:/Dropbox/_ProjectMagPy/MagPy/bin/core/gui/infoDialogs.py" />
         <option value="$PROJECT_DIR$/Csbeta file upload automation/upload.py" />
         <option value="$PROJECT_DIR$/Crypto/cipher_basics.py" />
+        <option value="$PROJECT_DIR$/Experiments with AI.py" />
       </list>
     </option>
   </component>
@@ -241,24 +230,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Hobby_Projects">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Crypto">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -337,11 +308,11 @@
       <recent name="E:\My Documents\GitHub\Hobby_Projects\Others\autoyt\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Others" />
+      <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\gui" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\gui\" />
       <recent name="E:\Dropbox\_ProjectMagPy\MagPy\bin\core\nav" />
-      <recent name="E:\Dropbox\_ProjectMagPy\MagPy\temp_files" />
-      <recent name="E:\My Documents\GitHub\Hobby_Projects\Scrapping_Experiments" />
     </key>
   </component>
   <component name="RunManager" selected="Python.cipher_basics">
@@ -820,10 +791,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2243346" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="129" y="130" width="347" height="719" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2243346" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="129" y="130" width="347" height="719" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125" sideWeight="0.5003796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -903,13 +874,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Others/selenium_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30769232" vertical-offset="0" max-vertical-offset="663">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/PySide/style.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
