@@ -89,7 +89,6 @@ class Cipher():
 				text += ","
 		for i in text.split(",")[:-1]:
 			row1, col1, row2, col2 = 0, -1, 0, -1
-			print i
 			for j in pmatrix:
 				if i[0] in j:
 					col1 = j.index(i[0])
@@ -99,15 +98,20 @@ class Cipher():
 					row1 += 1
 				if col2 == -1:
 					row2 += 1
-			print pmatrix[row1][col1], pmatrix[row2][col2]
 			if row1 == row2:
-				col1, col2 = (col1+1)%5, (col2+1)%5
-			if col1 == col2:
-				row1, row2 = (row1+1)%5, (row2+1)%5
+				if decrypt == 0:
+					col1, col2 = (col1+1)%5, (col2+1)%5
+				else:
+					col1, col2 = (col1-1)%5, (col2-1)%5
+			elif col1 == col2:
+				if decrypt == 0:
+					row1, row2 = (row1+1)%5, (row2+1)%5
+				else:
+					row1, row2 = (row1-1)%5, (row2-1)%5
 			else:
 				col1, col2 = col2, col1
-			print pmatrix[row1][col1], pmatrix[row2][col2]
-		return pmatrix
+			self.ans += (pmatrix[row1][col1]+pmatrix[row2][col2])
+		return self.ans
 
 
 
@@ -118,5 +122,5 @@ if __name__ == '__main__':
 	print Cipher("ZI EGX YMVGQZTKMY VEXI RWPVVINJ").vignere("deceptive", 1)
 	print Cipher("MEET ME AFTER THE TOGA PARTY").vernam("abcdefghijklmnopqrstuvwxyzab")
 	print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").vernam("abcdefghijklmnopqrstuvwxyzab", 1)
-	print Cipher("MEET ME AFTER THE TOGA PARTY").playfair("playfairexample")
-	# print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").playfair("playfairexample", 1)
+	print Cipher("MY NAME IS ATUL").playfair("playfairexample")
+	print Cipher("XFOLIXMKPVLR").playfair("playfairexample", 1)
