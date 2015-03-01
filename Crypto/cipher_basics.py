@@ -43,9 +43,37 @@ class Cipher():
 			temp += 1
 		return self.ans
 
+	def vernam(self, key, decrypt=0):
+		key = key.upper()
+		if len(self.text) != len(key):
+			return "Error: Key and pText lengths don't match."
+		temp = 0
+		for i in self.text:
+			if decrypt == 0:
+				if i != ' ':
+					row = self.alpha.index(key[temp])
+					col = self.alpha.index(i)
+					self.ans += (self.alpha[row:] + self.alpha[:row])[col]
+				else:
+					self.ans += ' '
+			else:
+				if i != ' ':
+					row = self.alpha.index(key[temp])
+					col = (self.alpha[row:] + self.alpha[:row]).index(i)
+					self.ans += self.alpha[col]
+				else:
+					self.ans += ' '
+			temp += 1
+		return self.ans
+
+	
+
+
 
 if __name__ == '__main__':
-	print Cipher("we are discovered save yourself").vignere("deceptive")
-	print Cipher("ZI EGX YMVGQZTKMY VEXI RWPVVINJ").vignere("deceptive", 1)
 	print Cipher("MEET ME AFTER THE TOGA PARTY").caesar()
 	print Cipher("PHHW PH DIWHU WKH WRJD SDUWB").caesar(1)
+	print Cipher("we are discovered save yourself").vignere("deceptive")
+	print Cipher("ZI EGX YMVGQZTKMY VEXI RWPVVINJ").vignere("deceptive", 1)
+	print Cipher("MEET ME AFTER THE TOGA PARTY").vernam("abcdefghijklmnopqrstuvwxyzab")
+	print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").vernam("abcdefghijklmnopqrstuvwxyzab", 1)
