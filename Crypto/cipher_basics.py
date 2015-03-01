@@ -20,6 +20,21 @@ class Cipher():
 				self.ans += i
 		return self.ans
 
+	def substitution(self, key, decrypt=0):
+		if len(self.alpha) != len(key):
+			return "Error: Key and alphabet lengths don't match."
+		for i in self.text:
+			if i != ' ':
+				if decrypt == 0:
+					ind = self.alpha.index(i)
+					self.ans += key[ind]
+				else:
+					ind = key.index(i)
+					self.ans += self.alpha[ind]
+			else:
+				self.ans += ' '
+		return self.ans
+
 	def vignere(self, key, decrypt=0):
 		key = key.upper()
 		rep = abs(len(self.text) / len(key)) + 1
@@ -118,9 +133,15 @@ class Cipher():
 if __name__ == '__main__':
 	print Cipher("MEET ME AFTER THE TOGA PARTY").caesar()
 	print Cipher("PHHW PH DIWHU WKH WRJD SDUWB").caesar(1)
+
+	print Cipher("MEET ME AFTER THE TOGA PARTY").substitution("ZRGYAHLIXQJKBSPMTCFNEWUODV")
+	print Cipher("BAAN BA ZHNAC NIA NPLZ MZCND").substitution("ZRGYAHLIXQJKBSPMTCFNEWUODV", 1)
+
 	print Cipher("we are discovered save yourself").vignere("deceptive")
 	print Cipher("ZI EGX YMVGQZTKMY VEXI RWPVVINJ").vignere("deceptive", 1)
+
 	print Cipher("MEET ME AFTER THE TOGA PARTY").vernam("abcdefghijklmnopqrstuvwxyzab")
 	print Cipher("MFGW RK IODPD HWU LHAV MYQTZ").vernam("abcdefghijklmnopqrstuvwxyzab", 1)
+
 	print Cipher("MY NAME IS ATUL").playfair("playfairexample")
 	print Cipher("XFOLIXMKPVLR").playfair("playfairexample", 1)
