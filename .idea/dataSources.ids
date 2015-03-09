@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="taskdb" uuid="6cbd1a5d-4cec-4d74-aca2-c4d661576582">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="INPUTS" schema="" catalog="" type="TABLE">
+      <column name="task" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="ipnum" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="inplabel" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="value" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="RESULTS" schema="" catalog="" type="TABLE">
+      <column name="task" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="link" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="html" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="TASKS" schema="" catalog="" type="TABLE">
+      <column name="task" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="task_row" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="task_column" sqlType="NUMBER" precision="2000000000" scale="10" nullable="true" jdbcType="6"/>
+      <column name="task_class" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="task_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
